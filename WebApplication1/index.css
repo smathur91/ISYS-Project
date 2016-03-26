@@ -1,0 +1,857 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html{
+	background-color: #fff;
+}
+
+body{
+	font:14px/1.5 Lucida Sans Unicode;
+	padding:0;
+	margin:0;
+	background: grey; /* For browsers that do not support gradients */
+    
+    background: white;
+	/*background-image: url('pic02.jpg');        
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;   */
+
+}
+
+/**********************
+Page Width
+ **********************/
+
+section {
+	max-width: 1400px;
+	padding:0 20px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+
+
+}
+
+/**************************
+Header
+***************************/
+header {
+	    position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: #25c9da;
+		background-size: auto, cover;
+		background-position: top left, center center;
+		padding: 1em 0 1em 0;
+		opacity: 1;
+		color: #fff;
+	    height: 2em;
+	    padding-top: 1em;
+
+}
+.main-background-home{
+		float: left;
+		width: 100%;
+		background-image: url("images/overlay.png"), url("images/header.png");
+		background-size: auto, cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		text-align: center;
+		height: 30em;
+	  padding-top: 2.5em;
+}
+
+
+.inner {
+	  max-width: 1300px;
+	  margin: -5px auto;
+	  padding: 0em 5em 5em 5em;
+	  position: relative;
+
+
+}
+
+.logo img {
+	min-width:120px;
+	  width: 15.76532%;
+	  padding-top: 0;
+}
+
+
+h1 {
+	  text-align: center;
+	  width: 100%;
+	  margin-top: 270px;
+	  color: orange;
+	  font-weight: 800;
+	  font-size: 2.5em;
+}
+
+
+/***********************************
+Navigation Bar
+************************************/
+ul{
+list-style:none;
+
+}
+
+
+nav > ul {
+  	float: right;
+}
+
+nav > ul > li {
+  	text-align: center;
+	  line-height: 2.5em;
+	  margin-left: 4.375em;
+}
+
+
+nav > ul li ul li {
+	  width: 100%;
+  	text-align: left;
+}
+
+nav ul li:hover {
+	  cursor: pointer;
+	  position: relative;
+}
+
+nav > ul > li > a {
+
+	  cursor: pointer;
+	  display: block;
+  	outline: none;
+  	width: 100%;
+	  text-decoration: none;
+	  font-size: 1.5em;
+	  
+}
+
+nav > ul > li {
+  	float: left;
+
+}
+
+nav > ul li ul {
+  	display: none;
+  	position: absolute;
+  	left: 0;
+	  top: 100%;
+  	width: 100%;
+	  z-index: 2000;
+}
+nav > ul li ul li > a {
+	  text-decoration: none;
+
+}
+
+#links-header{
+	  		  color: #FFFFFF;
+	  opacity:.8;
+	  transition:.2s ease-in-out .2s;
+	  }
+	  
+#links-header:hover {
+
+	  color: #ff9900;
+	  	  display:block;
+	  opacity:0.8;
+	  width: 100%;
+	  height: 30px;
+}
+	  
+[type="checkbox"], label {
+	  display: none;
+}
+
+
+/*Making Navigation bar responsive*/
+@media screen and (max-width: 1080px) {
+	nav ul {
+		  display: none;
+	}
+
+	label {
+  		display: block;
+  		background: #222;
+		  width: 2.5em;
+  		height: 2.5em;
+  		cursor: pointer;
+		  position: absolute;
+		  right: 1.25em;
+  		top: 0px;
+	}
+  
+label:after{
+  content:'';
+  display: block;
+  width: 1.875em;
+  height: 0.3125em;
+  background: #777;
+  margin: 0.4375em 0.3125em;
+  box-shadow: 0px 0.625em 0px #777, 0px 1.25em 0px #777
+}
+
+	[type="checkbox"]:checked ~ ul {
+  		display: block;
+  		z-index: 9999;
+  		position: absolute;
+		  right: 1.25em;
+		  left: 1.25em;
+	}
+
+	nav a {
+		  color: #777;
+		  	  width: 80px;
+	  height: 30px;
+	  display:block;
+	}
+
+	nav ul li {
+		  display: block;
+  		float: none;
+  		width: 100%;
+  		text-align: left;
+  		background: #222;
+		  text-indent: 1.25em;
+	}
+
+	nav > ul > li {
+  		margin-left: 0px;
+	}
+
+	nav > ul li ul li {
+  		display: block;
+		  float: none;
+	}
+  
+	nav > ul li ul {
+		  display: block;
+  		position: relative;
+  		width: 100%;
+		  z-index: 9999;
+		  float: none;
+	}
+h1 {
+	  font-size: 1.625em;
+}
+
+}
+
+
+/*****************************
+ The main content 
+ *****************************/
+
+.main-content {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Lucida Sans Unicode";
+	width: 95%;
+	float: left;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+h5
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 16px; 
+    color: #4F5255;
+    margin: 0 auto;
+	padding: 10px;
+    font-style: normal;
+}
+
+/************************************
+SIDEBARS-Left and Right
+*************************************/
+
+/* sidebar Right*/
+
+.sidebars {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Lucida Sans Unicode";
+	float: right;
+	width: 19%;
+}
+
+.sidebars .History {
+	background-color: #F1F4F6;
+	margin-bottom: 30px;
+	padding: 35px 0;
+}
+
+.sidebars .History h3 {
+	color:  #4E5255;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0 0 25px;
+	padding: 0 40px;
+}
+
+.sidebars .History p {
+	color: #636568;
+	font-size: 1em;
+	line-height: 19px;
+	margin: 0 0 30px;
+	padding: 0 40px;
+}
+
+.sidebars .Related-Links {
+	background-color: #F1F4F6;
+}
+
+.sidebars .Related-Links h3 {
+	background-color: #7B858F;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px 30px;
+	text-align: left;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+.sidebars .Related-Links ul {
+	list-style: none;
+	margin: 0;
+	text-align: left;
+	padding: 30px 40px;
+}
+
+.sidebars .Related-Links ul li {
+	line-height: 1.2;
+	margin: 0 0 14px;
+}
+
+.sidebars .Related-Links ul li a {
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #4F5255;
+	transition: all 0.1s ease-in-out 0.1s;
+}
+
+.sidebars .Related-Links ul li a:hover {
+opacity:0.7;
+}
+
+/* Sidebar Left*/
+
+
+
+.sidebars-left {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Lucida Sans Unicode";
+	float: left;
+	width: 19%;
+	box-shadow:10px grey;
+}
+
+.sidebars-left .company-info {
+	background-color: #F1F4F6;
+	margin-bottom: 30px;
+	padding: 35px 0;
+}
+
+.sidebars-left .company-info h3 {
+	color:  #4E5255;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0 0 25px;
+	padding: 0 40px;
+}
+
+.sidebars-left .company-info p {
+	color: #636568;
+	font-size: 1em;
+	line-height: 19px;
+	margin: 0 0 30px;
+	padding: 0 40px;
+}
+
+.sidebars-left .company-info .social-buttons {
+	padding: 0 40px;
+}
+
+.sidebars-left .company-info .social-buttons .fa {
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.7;
+	background-color: #7B858F;
+	width: 34px;
+	height: 34px;
+}
+
+.sidebars-left .latest-blog-posts {
+	background-color: #F1F4F6;
+}
+
+.sidebars-left .latest-blog-posts h3 {
+	background-color: #7B858F;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px 30px;
+	text-align: left;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.sidebars-left .latest-blog-posts .element-title .fa {
+	margin-right: 15px;
+}
+
+.sidebars-left .latest-blog-posts ul {
+	list-style: none;
+	margin: 0;
+	text-align: left;
+	padding: 30px 40px;
+}
+
+.sidebars-left .latest-blog-posts ul li {
+	line-height: 1.2;
+	margin: 0 0 14px;
+}
+
+.sidebars-left .latest-blog-posts ul li a {
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #4F5255;
+	transition: all 0.1s ease-in-out 0.1s;
+}
+
+.sidebars-left .latest-blog-posts ul li a:hover {
+opacity:0.7;
+}
+
+
+.sidebars-left .latest-blog-posts ul li span {
+	color: #92999F;
+	font-size: 11px;
+	display: block;
+	margin-top:4px;
+}
+
+
+/* Making the sidebar responsive */
+
+
+
+@media (max-width: 900px) {
+
+
+
+	.main-content {
+		float:none;
+		width: auto;
+		margin-bottom: 40px;
+        font-family: Lucida Sans Unicode;
+        
+	}
+	
+	.sidebars-left .latest-blog-posts{
+	display: none;
+	}
+
+	.sidebars {
+	overflow:hidden;
+		
+		width: auto;
+	}
+	
+	.sidebars-left {
+	overflow:hidden;
+		
+		width: auto;
+	}
+
+}
+
+
+/********************************
+Main Section formatting
+*********************************/
+
+
+#section-main{
+	  float: left;
+      width: 100%;
+      background-color: white;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+
+
+#section-main p {  font-size: 1.05em;
+	margin: 10px;
+	letter-spacing: .01em; }
+	
+
+
+/*****************************************
+IMAGES
+*******************************************/
+
+
+div.img {
+    border: 3px solid #ccc;
+    margin: 5px auto;
+    height: 24.6875em; 
+    width:  100%;
+    background-color:#F1F4F6;
+    
+   
+}
+
+div.img:hover {
+    border: 3px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 85%;
+    
+}
+
+div.desc {
+    padding: 7px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode";
+}
+
+
+/* Making Images Responsive*/
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*******************************
+Footer
+*******************************/
+.footerK{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+
+	padding: 50px 60px 40px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+
+/* Footer left */
+
+.footerK .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footerK h3{
+	color:  #ffffff;
+	font: normal 3em 'Cookie', cursive, serif;
+	margin: 0 0 10px;
+}
+
+.footerK h3 span{
+	color:  #25c9da;
+}
+
+/* Footer links */
+
+.footerK .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footerK .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footerK .footer-company-name{
+	color:  #8f9296;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footerK .footer-icons{
+	margin-top: 40px;
+}
+
+.footerK .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footerK .footer-right{
+	float: right;
+}
+
+.footerK .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footerK form{
+	display: inline-block;
+}
+
+.footerK form input,
+.footerK form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+
+
+.footerK :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footerK form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footerK form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footerK form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+.footer-links {
+display:none;
+}
+
+/* Responsive Footer */
+
+@media (max-width: 1000px) {
+
+	.Related-Links{
+	display:none;
+	}
+
+	.footer-links {
+display:inline;
+}
+	.footerK {
+		font: bold 14px sans-serif;
+	}
+
+	.footerK .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footerK form input,
+	.footerK form textarea{
+		width: 250px;
+	}
+
+	.footerK form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footerK{
+		padding: 30px;
+	}
+
+	.footerK .footer-left,
+	.footerK .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footerK .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footerK form{
+		margin-top: 30px;
+	}
+
+	.footerK form{
+		display: block;
+	}
+
+	.footerK form button{
+		float: none;
+	}
+}
+
+
+/******************************************
+    manage appointments
+********************************************/
+
+#manage-appointment{
+    background-color:lightgray;
+    width:100%;
+    height:12em;
+    margin:auto;
+}
+
+
+#manage-appointment-text{
+    width:15%;
+    height:6em;
+    background-color:orange;
+    float:left;
+    color:white;
+    margin-top:2%;
+}
+
+#manage-appointment-text1{
+    width:15%;
+    height:6em;
+    background-color:blue;
+    float:right;
+    color:white;
+    margin-top:2%;
+}
+
+#col1{
+    float:left;
+}
+#col2{float:left;
+
+}
+#col3{
+    float:left;
+}
+#manage-appointment form{
+	display: inline-block;
+}
+
+#manage-appointment form input,
+#manage-appointment form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  white;
+	box-shadow: 1px 1px 1px 1px gray;
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 280px;
+	padding: 18px;
+    float:none;
+}
+
+
+#manage-appointment :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+#manage-appointment form input{
+	height: 55px;
+	margin: 15px 15px 15px 15px;
+}
+
+#manage-appointment form textarea{
+	height: 100px;
+	margin: 15px 15px 0 15px;
+}
+
+#phone{
+    margin-bottom:10px;
+}
+
+
+#date{
+    margin-bottom:10px;
+}

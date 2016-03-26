@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+	<link rel="shortcut icon" href="logo_title.jpg" />
+	<link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cookie" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+	
+</head>
+
+
+<body>
+
+    <header>
+			<div class="inner">
+				<nav>
+					<a href="#" class="logo"><img src="house.png" alt ="house" /> </a>
+					<input type="checkbox" id="nav" /><label for="nav"></label>
+					<ul>
+						<li><a id="links-header" href="#" >Home</a></li>       
+						<li><a id="links-header" href="#" >Work</a></li>
+						<li><a id="links-header" href="#" >Service</a></li>
+						<li><a id="links-header" href="#" >Blog</a></li>
+						<li><a id="links-header" href="#" >Contact</a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</header>
+		
+
+            <asp:ContentPlaceHolder ID="banner" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+
+
+       
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+
+
+
+<footer class="footerK">
+
+			<div class="footer-left">
+
+				<h3>Joaqina<span>Dental</span></h3>
+				<p class="footer-links">
+					<a href="http://mays.tamu.edu" target="_blank"">Mays</a>
+					·
+					<a href="http://ecampus.tamu.edu" target="_blank">Ecampus</a>
+					·
+					<a href="http://tamu.edu" target="_blank">TAMU</a>
+					·
+					<a href="http://mays.tamu.edu/department-of-information-and-operations-management/" target="_blank">INFO</a>
+					
+				</p>
+
+				<p class="footer-company-name">&copy; Developed by Team 16</p>
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
+
+
+</body>
+</html>
