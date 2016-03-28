@@ -13,6 +13,20 @@
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 <script type="text/javascript" src="engine1/jquery.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+
+
+
+    <!----carousel---->
+    		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
+		<!----//webfonts---->
+		<!-- Owl Carousel Assets -->
+		<link href="css/owl.carousel.css" rel="stylesheet" />
+
+		   <!-- //Owl Carousel Assets -->
+
+
+
 	
 </asp:Content>
 
@@ -99,7 +113,7 @@
                         </div>
                     <div id="col2">
                     <input type="text" name="email" placeholder="Email" id="email"/>
-                    <input type="date" name="date" placeholder="Date" id="date" />
+                    <input type="date" name="date"  id="date" />
                         </div>
                     <div id="col3">
 					<textarea name="message" placeholder="Message" id="message"></textarea>
@@ -118,199 +132,126 @@
 				
 
 <div style="padding:6px;">
-  <p>We are the world’s leading global luxury real estate brand. We deal in construction of world class properties and real estate sales and marketing. We are known for our excellence in dealing with some of the finest proprieties across the globe. </p>
-  <p>Our projects range from resorts to 6-star hotels, villas to residential complexes and offices to commercial towers. Owning a Trump property is an experience in itself.</p>
-  <h5>Some of the properties we deal in - </h5>
+  
+  <h5>Our Doctors </h5>
+    <br />
 </div>
-
-<!-- image 1 -->
-<!-- Trump Vineyard Estates, Virginia -->         	
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://edc.h-cdn.co/assets/15/27/1435618923-vineyard-img.jpg">
-      <img src="./Trump_Buildings/1.jpg" alt="Trump Vineyard Estates" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump Vineyard Estates, Virginia</div>
-  </div>
-</div>
-
-<!-- image 2 -->
-<!-- Trump International Hotel & Tower, Chicago-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://media-cdn.tripadvisor.com/media/photo-o/02/21/ee/29/inside-this-four-star.jpg">
-      <img src="./Trump_Buildings/2.jpg" alt="Trump International Hotel & Tower" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump International Hotel & Tower, Chicago</div>
-  </div>
-</div>
-
-<!-- image 3 -->
-<!-- Mar-a-Lago Club, Florida-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://theridgeatthebluffs.com/wp-content/uploads/2012/06/DSC01480.jpg">
-      <img src="./Trump_Buildings/3.jpg" alt="Mar-a-Lago Club" width="600px" height="400px">
-    </a>
-    <div class="desc">Mar-a-Lago Club, Florida</div>
-  </div>
-</div>
-
-<!-- image 4 -->
-<!-- Trump Grande, South Florida-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://www.sunny-isles-beach.com/images/trump_palace/trump_grande_night.jpg">
-      <img src="./Trump_Buildings/4.jpg" alt="Trump Grande" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump Grande, South Florida</div>
-  </div>
-</div>
-
-<!-- image 5 -->
-<!-- Trump Plaza Residences, New Jersey-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://riverviewobserver.net/wp-content/uploads/2010/03/jc-trump-bldg.jpg">
-      <img src="./Trump_Buildings/5.jpg" alt="Trump Plaza Residences" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump Plaza Residences, New Jersey</div>
-  </div>
-</div>
-
-<!-- image 6 -->
-<!-- The Estates at Trump National,  Los Angeles-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="https://33.media.tumblr.com/tumblr_lyv1wldgPe1r6m2q0.jpg">
-      <img src="./Trump_Buildings/6.jpg" alt="The Estates at Trump National" width="600px" height="400px">
-    </a>
-    <div class="desc">The Estates at Trump National,  Los Angeles</div>
-  </div>
-</div>
-
-<!-- image 7 -->
-<!-- 610 Park Avenue,  New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://uppereastside-apartments.com/wp-content/uploads/2013/01/610-Park-Avenue.jpg">
-      <img src="./Trump_Buildings/7.jpg" alt="610 Park Avenue" width="600px" height="400px">
-    </a>
-    <div class="desc">610 Park Avenue, New York</div>
-  </div>
-</div>
-
-<!-- image 8 -->
-<!--  Trump International Hotel  & Tower,  New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://media.virtuoso.com/m/Images/Brochures/h440/14875653_2_1.jpg">
-      <img src="./Trump_Buildings/8.jpg" alt="Trump International Hotel  & Tower" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump International Hotel  & Tower, New York</div>
-  </div>
-</div>
-
-<!-- image 9 -->
-<!--  Trump Palace towers,  New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://www.johnlumea.com/images/trump_palace.jpg">
-      <img src="./Trump_Buildings/9.jpg" alt="Trump Palace towers" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump Palace towers, New York</div>
-  </div>
-</div>
-
-<!-- image 10-->
-<!-- Trump SoHo, New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="https://www.trumphotelcollection.com/images/masthead/NY-Soho-1.0-HotelOverview-Header.jpg">
-      <img src="./Trump_Buildings/10.jpg" alt="Trump SoHo" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump SoHo, New York</div>
-  </div>
-</div>
-
-<!-- image 11-->
-<!-- Trump Ocean Club, Panama-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://condohotelcenter.com/images/trump-ocean-building.jpg">
-      <img src="./Trump_Buildings/11.jpg" alt="Trump Ocean Club" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump Ocean Club, Panama</div>
-  </div>
-</div>
+	
 
 
-<!-- image 12-->
-<!--  40 Wall Street, New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://wirednewyork.com/images/skyscrapers/40-wall-street/40wall_close_street.jpg">
-      <img src="./Trump_Buildings/12.jpg" alt="40 Wall Street" width="600px" height="400px">
-    </a>
-    <div class="desc">40 Wall Street, New York</div>
-  </div>
-</div>
+                	<!--start-content--->
 
-
-<!-- image 13-->
-<!-- 555 California Street towers, San Francisco-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="https://c1.staticflickr.com/1/31/51805710_d9eb310d5c_b.jpg">
-      <img src="./Trump_Buildings/13.jpg" alt="555 California Street towers" width="600px" height="400px">
-    </a>
-    <div class="desc">555 California Street towers, San Francisco</div>
-  </div>
-</div>
-
-
-<!-- image 14-->
-<!-- Trump Tower, Rio de Janeiro, Brazil-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://www.trumptowersrio.com/wp-content/uploads/2014/03/t1.jpg">
-      <img src="./Trump_Buildings/14.jpg" alt="Trump Tower" width="600px" height="400px">
-    </a>
-    <div class="desc">Trump Tower, Rio de Janeiro, Brazil</div>
-  </div>
-</div>
-
-<!-- image 15-->
-<!-- Empire State Building, New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://i2.cdn.turner.com/cnnnext/dam/assets/150802141229-01-endangered-empire-state-building-exlarge-169.jpg">
-      <img src="./Trump_Buildings/15.jpg" alt="Empire State Building" width="600px" height="400px">
-    </a>
-    <div class="desc">Empire State Building, New York</div>
-  </div>
-</div>
-
-<!-- image 16-->
-<!-- The Plaza Hotel, New York-->
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="http://visconti.blogautore.espresso.repubblica.it/files/2010/11/plazaHotel2.jpg">
-      <img src="./Trump_Buildings/16.jpg" alt="The Plaza Hotel" width="600px" height="400px">
-    </a>
-    <div class="desc">The Plaza Hotel, New York</div>
-  </div>
-</div>
-
-
-
-
-					
-				
+				<div class="wrap-doctors">
+				<!----start-img-cursual---->
+				<!-- start content_slider -->
+					       <div id="owl-demo" class="owl-carousel">
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Appz</span> Theme</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Easy To</span> Use</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Amazing</span> Design</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dashboard</span> View</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Appz</span> Theme</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+			              </div>
+				<!----//End-img-cursual---->
+	
 				</div>
-			
 
-			</div>		
+
+                <div style="padding:6px;">
+  
+  <h5>Our Services </h5>
+    <br />
+</div>
+
+                <div class="wrap-services">
+				<!----start-img-cursual---->
+				<!-- start content_slider -->
+					       <div id="owl-demo1" class="owl-carousel">
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Appz</span> Theme</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Easy To</span> Use</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Amazing</span> Design</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dashboard</span> View</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Appz</span> Theme</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+			              </div>
+				<!----//End-img-cursual---->
+	
+				</div>
+                		<script src="js/jquery-1.9.1.min.js"></script> 
+		     <!-- Owl Carousel Assets -->
+		    <!-- Prettify -->
+		    <script src="js/owl.carousel.js"></script>
+		        <script>
+		    $(document).ready(function() {
+		
+		      $("#owl-demo").owlCarousel({
+		        items : 4,
+		        lazyLoad : true,
+		        autoPlay : false,
+		        navigation : true,
+			    navigationText : ["",""],
+			    rewindNav : false,
+			    scrollPerPage : false,
+			    pagination : false,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    </script>
+
+                <script>
+		    $(document).ready(function() {
+		
+		      $("#owl-demo1").owlCarousel({
+		        items : 4,
+		        lazyLoad : true,
+		        autoPlay : false,
+		        navigation : true,
+			    navigationText : ["",""],
+			    rewindNav : false,
+			    scrollPerPage : false,
+			    pagination : false,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    </script>
+
+			<!--//End-content--->
+		<!----//End-wrap---->
+
+
+				</div>
+				</div>
+	
 		
 	</section>
 </asp:Content>

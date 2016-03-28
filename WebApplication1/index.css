@@ -369,67 +369,141 @@ div.desc {
 /*******************************
 Footer
 *******************************/
-.footerK{
+.footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
 	text-align: left;
+	font: bold 16px sans-serif;
 
-	padding: 50px 60px 40px;
+	padding: 55px 50px;
 	margin-top: 80px;
-	overflow: hidden;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
 }
 
 /* Footer left */
 
-.footerK .footer-left{
-	float: left;
+.footer-distributed .footer-left{
+	width: 30%;
+	padding-right:1%;
 }
 
 /* The company logo */
 
-.footerK h3{
+.footer-distributed h3{
 	color:  #ffffff;
-	font: normal 3em 'Cookie', cursive, serif;
-	margin: 0 0 10px;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
 }
 
-.footerK h3 span{
-	color:  #25c9da;
+.footer-distributed h3 span{
+	color:  #5383d3;
 }
 
 /* Footer links */
 
-.footerK .footer-links{
+.footer-distributed .footer-links{
 	color:  #ffffff;
-	margin: 0 0 10px;
+	margin: 20px 0 12px;
 	padding: 0;
 }
 
-.footerK .footer-links a{
+.footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
 
-.footerK .footer-company-name{
+.footer-distributed .footer-company-name{
 	color:  #8f9296;
-	font-size: 1.2em;
-	font-weight: bold;
-	font-style: italic;
+	font-size: 14px;
+	font-weight: normal;
 	margin: 0;
 }
 
-/* Footer social icons */
+/* Footer Center */
 
-.footerK .footer-icons{
-	margin-top: 40px;
+.footer-distributed .footer-center{
+	width: 35%;
 }
 
-.footerK .footer-icons a{
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-right p{
+	color:white;
+}
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -446,27 +520,13 @@ Footer
 	margin-bottom: 5px;
 }
 
-/* Footer Right */
-
-.footerK .footer-right{
-	float: right;
-}
-
-.footerK .footer-right p{
+.footer-distributed form{
 	display: inline-block;
-	vertical-align: top;
-	margin: 15px 42px 0 0;
-	color: #ffffff;
+	width:95%;
 }
 
-/* The contact form */
-
-.footerK form{
-	display: inline-block;
-}
-
-.footerK form input,
-.footerK form textarea{
+.footer-distributed form input,
+.footer-distributed form textarea{
 	display: block;
 	border-radius: 3px;
 	box-sizing: border-box;
@@ -480,28 +540,35 @@ Footer
 	font-weight: normal;
 	color:  #d1d2d2;
 
-	width: 400px;
+	width: 100%;
 	padding: 18px;
 }
 
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
 
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
 
-.footerK :-ms-input-placeholder{
+.footer-distributed :-ms-input-placeholder{
 	color:  #5c666b;
 }
 
 
-.footerK form input{
+.footer-distributed form input{
 	height: 55px;
 	margin-bottom: 15px;
 }
 
-.footerK form textarea{
+.footer-distributed form textarea{
 	height: 100px;
 	margin-bottom: 20px;
 }
 
-.footerK form button{
+.footer-distributed form button{
 	border-radius: 3px;
 	background-color:  #33383b;
 	color: #ffffff;
@@ -511,35 +578,24 @@ Footer
 	float: right;
 }
 
-.footer-links {
-display:none;
-}
-
-/* Responsive Footer */
+/* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {
 
-	.Related-Links{
-	display:none;
-	}
-
-	.footer-links {
-display:inline;
-}
-	.footerK {
+	.footer-distributed {
 		font: bold 14px sans-serif;
 	}
 
-	.footerK .footer-company-name{
+	.footer-distributed .footer-company-name{
 		font-size: 12px;
 	}
 
-	.footerK form input,
-	.footerK form textarea{
-		width: 250px;
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 100%;
 	}
 
-	.footerK form button{
+	.footer-distributed form button{
 		padding: 10px 35px;
 	}
 
@@ -547,32 +603,36 @@ display:inline;
 
 @media (max-width: 800px) {
 
-	.footerK{
-		padding: 30px;
+	.footer-distributed{
+		font: bold 14px sans-serif;
 	}
 
-	.footerK .footer-left,
-	.footerK .footer-right{
-		float: none;
-		max-width: 300px;
-		margin: 0 auto;
-	}
-
-	.footerK .footer-left{
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
 		margin-bottom: 40px;
+		text-align: center;
 	}
 
-	.footerK form{
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	
+		.footer-distributed form{
+			width:100%;
 		margin-top: 30px;
 	}
 
-	.footerK form{
+	.footer-distributed form{
 		display: block;
 	}
 
-	.footerK form button{
+	.footer-distributed form button{
 		float: none;
 	}
+
 }
 
 
@@ -607,7 +667,7 @@ display:inline;
     display:block;
     width:12%;
     height:5em;
-    background-color:#4d4dff;
+    background-color:#00a2f4;
     float:right;
     color:white;
     margin-top:2%;
@@ -697,17 +757,23 @@ display:inline;
 }
 @media (max-width:768px){
     #manage-appointment{
+      
         display:none;
         width:0;
         height:0;
         margin:0;
     }
-
+    .formholder{
+        position:relative;
+        z-index:2;
+    }
     #media-appointment{
     display:block;
 
     }
 }
+
+
 
 
 /******************************************

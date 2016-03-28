@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\owl.carousel.css" />
     <Content Include="css\style.css" />
     <Content Include="data1\images\10.jpg" />
     <Content Include="data1\images\11.jpg" />
@@ -92,10 +93,20 @@
     <Content Include="engine1\wowslider.js" />
     <Content Include="engine1\wowslider.mod.js" />
     <Content Include="engine1\ws-ctrl-material.svg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\c-arrows.png" />
     <Content Include="images\header.png" />
     <Content Include="JavaScript1.js" />
     <Content Include="house.png" />
     <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\owl.carousel.js" />
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="WebForm3.aspx" />
