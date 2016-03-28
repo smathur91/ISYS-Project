@@ -213,7 +213,7 @@
 		    $(document).ready(function() {
 		
 		      $("#owl-demo").owlCarousel({
-		        items : 4,
+		        items : 3,
 		        lazyLoad : true,
 		        autoPlay : false,
 		        navigation : true,
@@ -231,7 +231,7 @@
 		    $(document).ready(function() {
 		
 		      $("#owl-demo1").owlCarousel({
-		        items : 4,
+		        items : 3,
 		        lazyLoad : true,
 		        autoPlay : false,
 		        navigation : true,
