@@ -10,37 +10,96 @@
 	<link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cookie" />
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
-	
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
 	
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="banner" runat="server">
-<div class="main-background-home">
-		<h1>Dental Tip</h1>
-		</div>
-    </asp:Content>
+
+
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/3.jpg" alt="Image 1" title="Image 1" id="wows1_0"/>Buddhe Baba</li>
+		<li><img src="data1/images/10.jpg" alt="Image 2" title="Image 2" id="wows1_1"/>Pagal Bacha</li>
+		<li><a href="http://wowslider.net"><img src="data1/images/11.jpg" alt="jquery carousel" title="Image 3" id="wows1_2"/></a>Hot Ladki</li>
+		<li><img src="data1/images/9.jpg" alt="Image 4" title="Image 4" id="wows1_3"/>Family</li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Image 1"><span><img src="data1/tooltips/3.jpg" alt="Image 1"/>1</span></a>
+		<a href="#" title="Image 2"><span><img src="data1/tooltips/10.jpg" alt="Image 2"/>2</span></a>
+		<a href="#" title="Image 3"><span><img src="data1/tooltips/11.jpg" alt="Image 3"/>3</span></a>
+		<a href="#" title="Image 4"><span><img src="data1/tooltips/9.jpg" alt="Image 4"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+    
+
+
+        </asp:Content>
 
 
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <section>
+    <section id="main-section">
+
+
+            <div id="media-appointment">
+        <div id="wrap">
+  <div id="regbar">
+    <div id="navthing">
+      <h2><a href="#" id="loginform">Book Appointment</a></h2>
+    <div class="login">
+      <div class="arrow-up"></div>
+      <div class="formholder">
+        <div class="randompad">
+           <fieldset>
+             <label name="email">Full Name</label>
+             <input type="text" />
+             <label name="email">Phone</label>
+             <input type="text" />
+             <label name="email">Email</label>
+             <input type="email" />
+             <label name="email">Appointment Date</label>
+             <input type="date" />
+             <label name="email">Message</label>
+             <input type="text" />
+             <input type="submit" value="Login" />
+ 
+           </fieldset>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+        </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+
 						<div id="manage-appointment" >
                         
                             <div id="manage-appointment-text">
-                                manage an appointment
+                               Appointment
                             </div>
 				
 
-				<form action="#" method="post">
+				<form action="#" method="post" id="appointment-form">
                     <div id="col1">
 					<input type="text" name="full name" placeholder="Full Name"  id="name"/>
                     <input type="text" name="phone" placeholder="Phone" id="phone" />
                         </div>
                     <div id="col2">
                     <input type="text" name="email" placeholder="Email" id="email"/>
-                    <input type="text" name="date" placeholder="Date" id="date" />
+                    <input type="date" name="date" placeholder="Date" id="date" />
                         </div>
                     <div id="col3">
 					<textarea name="message" placeholder="Message" id="message"></textarea>
@@ -48,8 +107,8 @@
 
 				</form>
 
-			                            <div id="manage-appointment-text1">
-                                manage appointment
+			                           <div id="manage-appointment-text1"> <a href="#" style="display:block;">
+                                Book</a>
                             </div>
 
 			</div>
