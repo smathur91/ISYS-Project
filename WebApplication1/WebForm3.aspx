@@ -24,7 +24,8 @@
 		</div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section id="section_form">
+    <section >
+        <div id="section_form">
         <div class="sign-up-form">
             <div class="form">
       
@@ -109,6 +110,7 @@
         <div class="doctor-image">
             <img src="doctor.jpg" alt="DOCTOR" />
         </div>
+            </div>
     </section>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type='text/javascript' src='JavaScript1.js'></script>

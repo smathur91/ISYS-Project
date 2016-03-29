@@ -4,7 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<title>Trump Realtors</title>
+	<title>Home</title>
 
 	<link rel="shortcut icon" href="logo_title.jpg" />
 	<link rel="stylesheet" href="index.css" />
@@ -121,7 +121,7 @@
 
 				</form>
 
-			                           <div id="manage-appointment-text1"> <a href="#" style="display:block;">
+			                           <div id="manage-appointment-text1"> <a href="webform4.aspx" style="display:block;">
                                 Book</a>
                             </div>
 
@@ -129,7 +129,7 @@
 
          <div class="main-blocks">
         <div class="box">
-		<img src="images/1.jpg"/>
+		<img src="images/t1.jpg" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -137,7 +137,7 @@
 		</span>
 		</div>
         <div class="box">
-		<img src="images/1.jpg"/>
+		<img src="images/t2.jpg" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -145,7 +145,7 @@
 		</span>
 		</div>
         <div class="box">
-		<img src="images/1.jpg"/>
+		<img src="images/t3.jpg" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -153,7 +153,7 @@
 		</span>
 		</div>
         <div class="box">
-		<img  src="images/1.jpg"/>
+		<img  src="images/t4.jpg" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -181,26 +181,23 @@
 				<!----start-img-cursual---->
 				<!-- start content_slider -->
 					       <div id="owl-demo" class="owl-carousel">
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s1.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Appz</span> Theme</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s2.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Easy To</span> Use</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s3.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Amazing</span> Design</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s4.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Dashboard</span> View</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Appz</span> Theme</a>
-				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
-				                </div>
+				              
 			              </div>
 				<!----//End-img-cursual---->
 	

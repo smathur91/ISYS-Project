@@ -100,6 +100,14 @@
     <Content Include="images\5.jpg" />
     <Content Include="images\c-arrows.png" />
     <Content Include="images\header.png" />
+    <Content Include="images\s1.jpg" />
+    <Content Include="images\s2.jpg" />
+    <Content Include="images\s3.jpg" />
+    <Content Include="images\s4.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
     <Content Include="JavaScript1.js" />
     <Content Include="house.png" />
     <Content Include="js\index.js" />
@@ -107,6 +115,7 @@
     <Content Include="js\jquery.magnific-popup.js" />
     <Content Include="js\modernizr.custom.js" />
     <Content Include="js\owl.carousel.js" />
+    <Content Include="logo_title.jpg" />
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="WebForm3.aspx" />
@@ -114,6 +123,7 @@
     <Content Include="engine1\ws-ctrl-material.eot" />
     <Content Include="engine1\ws-ctrl-material.ttf" />
     <Content Include="engine1\ws-ctrl-material.woff" />
+    <Content Include="WebForm4.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,7 +135,6 @@
     <Content Include="images\overlay.png" />
     <Content Include="index.css" />
     <Content Include="index.html" />
-    <Content Include="logo_title.jpg" />
     <Content Include="Trump_Buildings\1.jpg" />
     <Content Include="Trump_Buildings\10.jpg" />
     <Content Include="Trump_Buildings\11.jpg" />
@@ -175,6 +184,13 @@
     </Compile>
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

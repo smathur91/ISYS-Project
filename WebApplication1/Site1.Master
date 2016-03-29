@@ -30,7 +30,7 @@
 					<a href="#" class="logo"><img src="house.png" alt ="house" /> </a>
 					<input type="checkbox" id="nav" /><label for="nav"></label>
 					<ul>
-						<li><a id="links-header" href="#" >Home</a></li>       
+						<li><a id="links-header" href="WebForm1.aspx" >Home</a></li>       
 						<li><a id="links-header" href="#" >Work</a></li>
 						<li><a id="links-header" href="#" >Service</a></li>
 						<li><a id="links-header" href="#" >Blog</a></li>
