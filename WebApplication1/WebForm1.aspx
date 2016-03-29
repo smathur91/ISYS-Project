@@ -126,6 +126,42 @@
                             </div>
 
 			</div>
+
+         <div class="main-blocks">
+        <div class="box">
+		<img src="images/1.jpg"/>
+		<span class="caption fade-caption">
+			<h3>Fade Caption</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		</span>
+		</div>
+        <div class="box">
+		<img src="images/1.jpg"/>
+		<span class="caption fade-caption">
+			<h3>Fade Caption</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		</span>
+		</div>
+        <div class="box">
+		<img src="images/1.jpg"/>
+		<span class="caption fade-caption">
+			<h3>Fade Caption</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		</span>
+		</div>
+        <div class="box">
+		<img  src="images/1.jpg"/>
+		<span class="caption fade-caption">
+			<h3>Fade Caption</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		</span>
+		</div>
+ </div>
+
 		<div class="main-content">
 
 			<div id="section-main">
@@ -133,7 +169,7 @@
 
 <div style="padding:6px;">
   
-  <h5>Our Doctors </h5>
+  <h5>Our Services </h5>
     <br />
 </div>
 	
@@ -141,7 +177,7 @@
 
                 	<!--start-content--->
 
-				<div class="wrap-doctors">
+				<div class="wrap-services">
 				<!----start-img-cursual---->
 				<!-- start content_slider -->
 					       <div id="owl-demo" class="owl-carousel">
@@ -173,11 +209,11 @@
 
                 <div style="padding:6px;">
   
-  <h5>Our Services </h5>
+  <h5>Our Doctors </h5>
     <br />
 </div>
 
-                <div class="wrap-services">
+                <div class="wrap-doctors">
 				<!----start-img-cursual---->
 				<!-- start content_slider -->
 					       <div id="owl-demo1" class="owl-carousel">
