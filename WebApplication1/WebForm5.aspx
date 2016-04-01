@@ -2,16 +2,19 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <section id="main-section">
-           <div class="gridv">
+           <div class="gridv" style="margin-top:100px;">
     <form id="form1" runat="server">
         
-    <asp:GridView ID="GridView1" CssClass="footable" runat="server" AutoGenerateColumns="false"
-        Style="max-width: 500px">
+    <asp:GridView ID="GridView1" CssClass="footable" OnPageIndexChanging="GridView1_PageIndexChanging" runat="server" AutoGenerateColumns="false"
+        Style="max-width: 500px" AllowPaging="True" PagerSettings-Mode="NumericFirstLast">
         <Columns>
-            <asp:BoundField DataField="patient_first_name" HeaderText="Customer Id" />
-            <asp:BoundField DataField="patient_last_name" HeaderText="Customer Name" />
-            <asp:BoundField DataField="dentist_first_name" HeaderText="Country" />
-            <asp:BoundField DataField="dentist_last_name" HeaderText="Salary" />
+            <asp:BoundField DataField="appointment_id" HeaderText="Appointment ID" />
+            <asp:BoundField DataField="patient_first_name" HeaderText="Patient First Name" />
+            <asp:BoundField DataField="patient_last_name" HeaderText="Patient Last Name" />
+            <asp:BoundField DataField="dentist_first_name" HeaderText="Dentist First Name" />
+            <asp:BoundField DataField="dentist_last_name" HeaderText="Dentist Last Name" />
+            <asp:BoundField DataField="appointment_date" HeaderText="Appointment Date" />
+            <asp:BoundField DataField="appointment_time" HeaderText="Appointment Time" />
         </Columns>
     </asp:GridView>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/0.1.0/css/footable.min.css"
@@ -20,7 +23,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/0.1.0/js/footable.min.js"></script>
     <script type="text/javascript">
         $(function () {
-            $('[id*=GridView1]').footable();
+                $('[id*=GridView1]').footable();
         });
     </script>
     </form>
