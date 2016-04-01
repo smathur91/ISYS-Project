@@ -2,11 +2,11 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <section id="main-section">
-           <div class="gridv">
+           <div class="gridv" style="margin-top:7%; margin-left:10%;">
     <form id="form1" runat="server">
         
     <asp:GridView ID="GridView1" CssClass="footable" runat="server" AutoGenerateColumns="false"
-        Style="max-width: 500px">
+        Style="max-width: 500px" PageSize="5">
         <Columns>
             <asp:BoundField DataField="patient_first_name" HeaderText="Customer Id" />
             <asp:BoundField DataField="patient_last_name" HeaderText="Customer Name" />

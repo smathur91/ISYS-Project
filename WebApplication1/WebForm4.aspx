@@ -80,32 +80,32 @@
           
           <button type="submit" class="button button-block" runat="server" id="button1" onserverclick="ButtonRegister_Click">Get Started</button>
           
-          </form>
+          
 
         </div>
         
         <div id="login">   
           <h1>Welcome Back!</h1>
           
-          <form action="/" method="post">
+          
           
             <div class="field-wrap">
             <label>
               Email Address<span class="req">*</span>
             </label>
-            <input type="email" required="required" autocomplete="off"/>
+            <input type="email" required="required" autocomplete="off" id="email_login" runat="server"/>
           </div>
           
           <div class="field-wrap">
             <label>
               Password<span class="req">*</span>
             </label>
-            <input type="password" required="required" autocomplete="off"/>
+            <input type="password" required="required" autocomplete="off" id="psswrd_login" runat="server" />
           </div>
           
           <p class="forgot"><a href="#">Forgot Password?</a></p>
           
-          <button class="button button-block">Log In</button>
+          <button type="submit" class="button button-block" runat="server" id="button2" onserverclick="ButtonRegister_Click_login">Log In</button>
           
           </form>
 
