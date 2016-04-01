@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\owl.carousel.css" />
     <Content Include="css\style.css" />
     <Content Include="data1\images\10.jpg" />
     <Content Include="data1\images\11.jpg" />
@@ -73,6 +74,7 @@
     <Content Include="data1\images\3.jpg" />
     <Content Include="data1\images\31.jpg" />
     <Content Include="data1\images\9.jpg" />
+    <Content Include="data1\images\blur19.jpg" />
     <Content Include="data1\tooltips\10.jpg" />
     <Content Include="data1\tooltips\11.jpg" />
     <Content Include="data1\tooltips\2.jpg" />
@@ -83,6 +85,7 @@
     <Content Include="engine1\arrows.png" />
     <Content Include="engine1\bullet.png" />
     <Content Include="engine1\jquery.js" />
+    <Content Include="data1\images\LoginBanner.png" />
     <Content Include="engine1\pause.png" />
     <Content Include="engine1\play.png" />
     <Content Include="engine1\script.js" />
@@ -92,10 +95,30 @@
     <Content Include="engine1\wowslider.js" />
     <Content Include="engine1\wowslider.mod.js" />
     <Content Include="engine1\ws-ctrl-material.svg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\c-arrows.png" />
     <Content Include="images\header.png" />
+    <Content Include="images\s1.jpg" />
+    <Content Include="images\s2.jpg" />
+    <Content Include="images\s3.jpg" />
+    <Content Include="images\s4.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
     <Content Include="JavaScript1.js" />
     <Content Include="house.png" />
+    <Content Include="js\classie.js" />
     <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="logo_title.jpg" />
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="WebForm3.aspx" />
@@ -103,6 +126,11 @@
     <Content Include="engine1\ws-ctrl-material.eot" />
     <Content Include="engine1\ws-ctrl-material.ttf" />
     <Content Include="engine1\ws-ctrl-material.woff" />
+    <Content Include="WebForm4.aspx" />
+    <None Include="Properties\PublishProfiles\ISYS-631 %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\ISYS-631.pubxml" />
+    <None Include="Properties\PublishProfiles\ISYSV1 %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\IsysV1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -113,26 +141,8 @@
   <ItemGroup>
     <Content Include="images\overlay.png" />
     <Content Include="index.css" />
-    <Content Include="index.html" />
-    <Content Include="logo_title.jpg" />
-    <Content Include="Trump_Buildings\1.jpg" />
-    <Content Include="Trump_Buildings\10.jpg" />
-    <Content Include="Trump_Buildings\11.jpg" />
-    <Content Include="Trump_Buildings\12.jpg" />
-    <Content Include="Trump_Buildings\13.jpg" />
-    <Content Include="Trump_Buildings\14.jpg" />
-    <Content Include="Trump_Buildings\15.jpg" />
-    <Content Include="Trump_Buildings\16.jpg" />
-    <Content Include="Trump_Buildings\2.jpg" />
-    <Content Include="Trump_Buildings\3.jpg" />
-    <Content Include="Trump_Buildings\4.jpg" />
-    <Content Include="Trump_Buildings\5.jpg" />
-    <Content Include="Trump_Buildings\6.jpg" />
-    <Content Include="Trump_Buildings\7.jpg" />
-    <Content Include="Trump_Buildings\8.jpg" />
-    <Content Include="Trump_Buildings\9.jpg" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -144,12 +154,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
@@ -164,6 +174,13 @@
     </Compile>
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
