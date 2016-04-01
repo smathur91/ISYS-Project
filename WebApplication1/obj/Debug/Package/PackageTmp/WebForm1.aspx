@@ -27,10 +27,15 @@
 
 
 
+
 	
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="banner" runat="server">
+
+               <div id="dentalTipDiv">
+<asp:Label runat="server" ID="dentalTipLabel"></asp:Label>
+        </div>
 
 
 <div id="wowslider-container1">
@@ -59,6 +64,10 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+       
+
+    
 
     <section id="main-section">
 
@@ -170,7 +179,7 @@
 <div style="padding:6px;">
   
   <h5>Our Services </h5>
-    <br />
+<hr />
 </div>
 	
 
@@ -204,10 +213,10 @@
 				</div>
 
 
-                <div style="padding:6px;">
+<div style="padding:6px;">
   
   <h5>Our Doctors </h5>
-    <br />
+<hr />
 </div>
 
                 <div class="wrap-doctors">

@@ -2,7 +2,7 @@
 * 	Owl Carousel Owl Demo Theme 
 *	v1.24
 */
-    #owl-demo .item{
+    #owl-demo .item,  #owl-demo1 .item{
        margin: 0.5em;
 		transition: 0.5s all;
 		-webkit-transition: 0.5s all;
@@ -12,11 +12,11 @@
 		background: #fff;
 		cursor:pointer;
     }
-    #owl-demo .item:hover a{
+    #owl-demo .item:hover a, #owl-demo1 .item:hover a{
     	color:#171717;
     	border-bottom:2px solid #F12078;
     }
-    #owl-demo .item img{
+    #owl-demo .item img, #owl-demo1 .item img{
         display: block;
         height: auto;
     }
@@ -25,7 +25,7 @@
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;s
+	-o-transition: 0.5s all;
 }
 .item img:hover,.item a:hover,.item p:hover{
 	opacity:1;
@@ -394,7 +394,9 @@
 	}
 }
 @media only screen and (max-width:640px) and (min-width:480px) {
+
 	.owl-carousel {
+
 		margin-top: 0;
 	}
 }
@@ -402,4 +404,7 @@
 	.owl-carousel {
 		margin-top: 0;
 	}
+    .owl-theme .owl-controls .owl-buttons div{
+        display:none;
+    }
 }

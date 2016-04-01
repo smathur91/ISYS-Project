@@ -53,7 +53,7 @@ header {
 
 #wowslider-container1{
     float:left;
-      padding-top: 5em;
+      /*padding-top: 5em;*/
       width:100%;
       z-index:1;
 
@@ -259,6 +259,30 @@ nav > ul li ul li > a {
 }
 
 
+  header .smaller {
+    height: 75px;
+    background-color: black;
+  }
+
+
+/*****************************
+Dental Tip
+ *****************************/
+#dentalTipDiv{
+margin-top:4em; 
+width:85%; 
+height:2em; 
+background-color:#25c9da;
+    padding-left:15%;
+        color:white;
+    font-size:1em;
+    overflow:hidden;
+    padding-top:1%;
+    font-family:Almendra SC Font;
+}
+
+
+
 /*****************************
  The main content 
  *****************************/
@@ -301,7 +325,19 @@ Main Section formatting
 #section-main p {  font-size: 1.05em;
 	margin: 10px;
 	letter-spacing: .01em; }
-	
+
+@media only screen and (max-width: 700px){
+    .main-content {
+        padding: 0;
+    }
+    #section-main{
+        margin-left:0;
+    }
+    #main-section{
+        padding:0 1px;
+    }
+
+    }	
 
 
 /*****************************************
@@ -639,6 +675,8 @@ Footer
 }
 
 
+
+
 /******************************************
     manage appointments
 ********************************************/
@@ -741,7 +779,7 @@ Footer
 }
 
 #manage-appointment form textarea{
-	height: 100px;
+	height: 125px;
 	margin: 15px 15px 0 15px;
 }
 
@@ -809,12 +847,12 @@ Footer
 
 .sign-up-form a {
   text-decoration: none;
-  color: #1ab188;
+  color: #25c9da;
   -webkit-transition: .5s ease;
   transition: .5s ease;
 }
 .sign-up-form a:hover {
-  color: #179b77;
+  color: #08e1f7;
 }
 
 .sign-up-form .form {
@@ -851,11 +889,11 @@ Footer
   transition: .5s ease;
 }
 .sign-up-form .tab-group li a:hover {
-  background: #179b77;
+  background: #08e1f7;
   color: #ffffff;
 }
 .sign-up-form .tab-group .active a {
-  background: #1ab188;
+  background: #25c9da;
   color: #ffffff;
 }
 
@@ -884,7 +922,7 @@ Footer
 }
 .sign-up-form label .req {
   margin: 2px;
-  color: #1ab188;
+  color: #25c9da;
 }
 
 .sign-up-form label.active {
@@ -917,7 +955,7 @@ Footer
 }
 .sign-up-form input:focus, textarea:focus {
   outline: 0;
-  border-color: #1ab188;
+  border-color: #25c9da;
 }
 
 .sign-up-form textarea {
@@ -953,14 +991,14 @@ Footer
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background: #1ab188;
+  background: #25c9da;
   color: #ffffff;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-appearance: none;
 }
 .sign-up-form .button:hover, .button:focus {
-  background: #179b77;
+  background: #08e1f7;
 }
 
 .sign-up-form .button-block {

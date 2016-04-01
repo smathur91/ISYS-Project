@@ -24,22 +24,27 @@
 
 <body>
 
+
     <header>
+
 			<div class="inner">
 				<nav>
-					<a href="#" class="logo"><img src="house.png" alt ="house" /> </a>
+					<a href="Default.aspx" class="logo"><img src="house.png" alt ="house" /> </a>
 					<input type="checkbox" id="nav" /><label for="nav"></label>
 					<ul>
-						<li><a id="links-header" href="WebForm1.aspx" >Home</a></li>       
-						<li><a id="links-header" href="#" >Work</a></li>
-						<li><a id="links-header" href="#" >Service</a></li>
-						<li><a id="links-header" href="#" >Blog</a></li>
+						<li><a id="links-header" href="Default.aspx" >Home</a></li>       
+						<li><a id="links-header" href="#" >About Us</a></li>
+                        <li><a id="links-header" href="#" >Services</a></li>
+						<li><a id="links-header" href="webform4.aspx" >Manage Appointment</a></li>
+						<li><a id="links-header" href="#" >Testimonials</a></li>
 						<li><a id="links-header" href="#" >Contact</a></li>
 					</ul>
 				</nav>
 				
 			</div>
 		</header>
+
+
 		
 
             <asp:ContentPlaceHolder ID="banner" runat="server">
