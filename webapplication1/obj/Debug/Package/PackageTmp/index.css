@@ -1,0 +1,1089 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html{
+	background-color: #fff;
+}
+
+body{
+	font:14px/1.5 Lucida Sans Unicode;
+	padding:0;
+	margin:0;
+	background: grey; /* For browsers that do not support gradients */
+    
+    background: white;
+	/*background-image: url('pic02.jpg');        
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;   */
+
+}
+
+/**********************
+Page Width
+ **********************/
+
+
+#main-section {
+	max-width: 1400px;
+	padding:0 20px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+
+
+}
+
+/**************************
+Header
+***************************/
+header {
+	    position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: #25c9da;
+		background-size: auto, cover;
+		background-position: top left, center center;
+		padding: 1em 0 1em 0;
+		opacity: 1;
+		color: #fff;
+	    height: 2em;
+	    padding-top: 1em;
+         z-index:2;
+}
+
+#wowslider-container1{
+    float:left;
+      /*padding-top: 5em;*/
+      width:100%;
+      z-index:1;
+
+
+
+}
+.main-background-home{
+		float: left;
+		width: 100%;
+		background-image: url("images/overlay.png"), url("images/header.png");
+		background-size: auto, cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		text-align: center;
+		height: 30em;
+	  padding-top: 2.5em;
+}
+.doctor-image{
+    width: 40%;
+    float: left;
+}
+
+.doctor-image img{
+    width: 60%;
+
+}
+.inner {
+	  max-width: 1300px;
+	  margin: -5px auto;
+	  padding: 0em 5em 5em 5em;
+	  position: relative;
+
+
+}
+
+.logo img {
+	min-width:120px;
+	  width: 15.76532%;
+	  padding-top: 0;
+}
+
+
+h1 {
+	  text-align: center;
+	  width: 100%;
+	  margin-top: 270px;
+	  color: orange;
+	  font-weight: 800;
+	  font-size: 2.5em;
+}
+
+
+/***********************************
+Navigation Bar
+************************************/
+ul{
+list-style:none;
+
+}
+
+
+nav > ul {
+  	float: right;
+}
+
+nav > ul > li {
+  	text-align: center;
+	  line-height: 2.5em;
+	  margin-left: 4.375em;
+}
+
+
+nav > ul li ul li {
+	  width: 100%;
+  	text-align: left;
+}
+
+nav ul li:hover {
+	  cursor: pointer;
+	  position: relative;
+}
+
+nav > ul > li > a {
+
+	  cursor: pointer;
+	  display: block;
+  	outline: none;
+  	width: 100%;
+	  text-decoration: none;
+	  font-size: 1.5em;
+	  
+}
+
+nav > ul > li {
+  	float: left;
+
+}
+
+nav > ul li ul {
+  	display: none;
+  	position: absolute;
+  	left: 0;
+	  top: 100%;
+  	width: 100%;
+	  z-index: 2000;
+}
+nav > ul li ul li > a {
+	  text-decoration: none;
+
+}
+
+#links-header{
+	  		  color: #FFFFFF;
+	  opacity:.8;
+	  transition:.2s ease-in-out .2s;
+	  }
+	  
+#links-header:hover {
+
+	  color: #ff9900;
+	  	  display:block;
+	  opacity:0.8;
+	  width: 100%;
+	  height: 30px;
+}
+	  
+.inner [type="checkbox"], .inner label {
+	  display: none;
+}
+
+
+/*Making Navigation bar responsive*/
+@media screen and (max-width: 1080px) {
+	nav ul {
+		  display: none;
+	}
+
+.inner	label {
+  		display: block;
+  		background: #222;
+		  width: 2.5em;
+  		height: 2.5em;
+  		cursor: pointer;
+		  position: absolute;
+		  right: 1.25em;
+  		top: 0px;
+	}
+  
+.inner label:after{
+  content:'';
+  display: block;
+  width: 1.875em;
+  height: 0.3125em;
+  background: #777;
+  margin: 0.4375em 0.3125em;
+  box-shadow: 0px 0.625em 0px #777, 0px 1.25em 0px #777
+}
+
+	[type="checkbox"]:checked ~ ul {
+  		display: block;
+  		z-index: 9999;
+  		position: absolute;
+		  right: 1.25em;
+		  left: 1.25em;
+	}
+
+	nav a {
+		  color: #777;
+		  	  width: 80px;
+	  height: 30px;
+	  display:block;
+	}
+
+	nav ul li {
+		  display: block;
+  		float: none;
+  		width: 100%;
+  		text-align: left;
+  		background: #222;
+		  text-indent: 1.25em;
+	}
+
+	nav > ul > li {
+  		margin-left: 0px;
+	}
+
+	nav > ul li ul li {
+  		display: block;
+		  float: none;
+	}
+  
+	nav > ul li ul {
+		  display: block;
+  		position: relative;
+  		width: 100%;
+		  z-index: 9999;
+		  float: none;
+	}
+.inner h1 {
+	  font-size: 1.625em;
+}
+
+}
+
+
+  header .smaller {
+    height: 75px;
+    background-color: black;
+  }
+
+
+/*****************************
+Dental Tip
+ *****************************/
+#dentalTipDiv{
+margin-top:4em; 
+width:100%; 
+height:2em; 
+background-color:aqua;
+    padding-left:20%;
+        color:black;
+    font-size:1em;
+    overflow:hidden;
+    padding-top:1%;
+    font-family:Almendra SC Font;
+}
+
+#dentalTipDiv dentalTipLabel{
+
+
+}
+
+/*****************************
+ The main content 
+ *****************************/
+
+.main-content {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Lucida Sans Unicode";
+	width: 95%;
+	float: left;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+h5
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 16px; 
+    color: #4F5255;
+    margin: 0 auto;
+	padding: 10px;
+    font-style: normal;
+}
+
+
+/********************************
+Main Section formatting
+*********************************/
+
+
+#section-main{
+	  float: left;
+      width: 100%;
+      background-color: white;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+
+
+#section-main p {  font-size: 1.05em;
+	margin: 10px;
+	letter-spacing: .01em; }
+	
+
+
+/*****************************************
+IMAGES
+*******************************************/
+
+
+div.img {
+    border: 3px solid #ccc;
+    margin: 5px auto;
+    height: 24.6875em; 
+    width:  100%;
+    background-color:#F1F4F6;
+    
+   
+}
+
+div.img:hover {
+    border: 3px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 85%;
+    
+}
+
+div.desc {
+    padding: 7px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode";
+}
+
+
+/* Making Images Responsive*/
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*******************************
+Footer
+*******************************/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+	padding-right:1%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+    padding-left:2%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-right p{
+	color:white;
+}
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed form{
+	display: inline-block;
+	width:95%;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 100%;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 100%;
+        max-width:350px;
+        margin:15px auto;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	
+		.footer-distributed form{
+			width:100%;
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+
+}
+
+
+
+
+/******************************************
+    manage appointments
+********************************************/
+
+#manage-appointment{
+    background-color:lightgray;
+    width:100%;
+    height:12em;
+    margin:auto;
+}
+
+
+#manage-appointment-text{
+    width:15%;
+    height:5em;
+    background-color:orange;
+    float:left;
+    color:white;
+    margin-top:2%;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5em;
+ line-height:5em;
+ text-align:center;
+}
+
+#manage-appointment-text1{
+    display:block;
+    width:12%;
+    height:5em;
+    background-color:#00a2f4;
+    float:right;
+    color:white;
+    margin-top:2%;
+        border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5em;
+ line-height:5em;
+ text-align:center;
+}
+
+#manage-appointment-text1 a{
+    text-decoration:none;
+    color:white;
+    width:100%;
+
+}
+
+#appointment-form{
+    width:70%;
+}
+#col1{
+    width:33%;
+    float:left;
+}
+#col2{
+    width:33%;
+    float:left;
+
+}
+#col3{
+    width:33%;
+    float:left;
+}
+#manage-appointment form{
+	display: inline-block;
+}
+
+#manage-appointment form input,
+#manage-appointment form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  white;
+	box-shadow: 1px 1px 1px 1px gray;
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 98%;
+	padding: 18px;
+    float:none;
+}
+
+
+#manage-appointment :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+#manage-appointment form input{
+	height: 55px;
+	margin: 15px 15px 15px 15px;
+}
+
+#manage-appointment form textarea{
+	height: 125px;
+	margin: 15px 15px 0 15px;
+}
+
+#phone{
+    margin-bottom:10px;
+}
+
+
+#date{
+    margin-bottom:10px;
+}
+
+/*RESPONSIVE APPOINTMENT*/
+#media-appointment{
+    display:none;
+}
+@media (max-width:768px){
+    #manage-appointment{
+      
+        display:none;
+        width:0;
+        height:0;
+        margin:0;
+    }
+    .formholder{
+        position:relative;
+        z-index:2;
+    }
+    #media-appointment{
+    display:block;
+
+    }
+}
+
+
+
+
+/******************************************
+    Login/Signup form
+*******************************************/
+
+
+.sign-up-form{
+  float:left;
+  width: 60%;
+  min-width: 350px; 
+}
+.form{
+    float: right;
+    width:70%;
+}
+
+.sign-up-form *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.sign-up-form html {
+  overflow-y: scroll;
+}
+
+.sign-up-form body {
+  background: #c1bdba;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.sign-up-form a {
+  text-decoration: none;
+  color: #25c9da;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.sign-up-form a:hover {
+  color: #08e1f7;
+}
+
+.sign-up-form .form {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.sign-up-form .tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.sign-up-form .tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sign-up-form .tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.sign-up-form .tab-group li a:hover {
+  background: #08e1f7;
+  color: #ffffff;
+}
+.sign-up-form .tab-group .active a {
+  background: #25c9da;
+  color: #ffffff;
+}
+
+.sign-up-form .tab-content > div:last-child {
+  display: none;
+}
+
+.sign-up-form h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+.sign-up-form label {
+  position: absolute;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 100%;
+}
+.sign-up-form label .req {
+  margin: 2px;
+  color: #25c9da;
+}
+
+.sign-up-form label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+.sign-up-form label.active .req {
+  opacity: 0;
+}
+
+.sign-up-form label.highlight {
+  color: #ffffff;
+}
+
+.sign-up-form input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+.sign-up-form input:focus, textarea:focus {
+  outline: 0;
+  border-color: #25c9da;
+}
+
+.sign-up-form textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.sign-up-form .field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sign-up-form .top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sign-up-form .top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.sign-up-form .top-row > div:last-child {
+  margin: 0;
+}
+
+.sign-up-form .button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #25c9da;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.sign-up-form .button:hover, .button:focus {
+  background: #08e1f7;
+}
+
+.sign-up-form .button-block {
+  display: block;
+  width: 100%;
+}
+
+.sign-up-form .forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+
+
+@media (max-width: 800px) {
+    .sign-up-form{
+        width: 95%;
+    }
+.sign-up-form .form{
+    float:left;
+    width:98%;
+}
+    .doctor-image{
+        display:none;
+    }
+}
+
+
+/******************************************
+    Main Blocks
+*******************************************/
+.main-blocks {
+	font: 10pt normal Arial, sans-serif;
+	margin: 30px auto 0 auto;
+	text-align: center;
+	width: 97%;
+    overflow: hidden;
+}
+
+/* Image Box Style */
+.main-blocks .box {
+	border: 5px solid #fff;
+	cursor: pointer;
+	height: 182px;
+	float: left;
+	margin: .792%;
+	position: relative;
+	overflow: hidden;
+	width: 22%;
+		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+		box-shadow: 1px 1px 1px 1px #ccc;
+}
+.main-blocks .box img {
+	position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/* Caption Common Style */
+.main-blocks .box .caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+}
+
+
+/** Caption 3: Fade **/
+.main-blocks .box .fade-caption, .main-blocks .box .scale-caption  {
+	opacity: 0;
+	width: 98%;
+	height: 172px;
+	text-align: left;
+	padding: 1.647%;
+}
+
+
+/** Fade Caption :hover Behaviour **/
+.main-blocks .box:hover .fade-caption, .main-blocks .box:hover .scale-caption  {
+	opacity: 1;
+}
+
+@media (max-width: 765px) {
+.main-blocks{
+    display:none;
+}
+}

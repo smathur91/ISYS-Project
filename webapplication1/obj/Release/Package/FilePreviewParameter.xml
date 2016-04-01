@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ISYSV1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\shashaank\\Source\\Repos\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\shashaank\\Source\\Repos\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
