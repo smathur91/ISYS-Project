@@ -40,7 +40,7 @@ namespace WebApplication1
             //GridView1.DataMember = "Auppointments_table";
 
             //Attribute to show the Plus Minus Button.
-            GridView1.HeaderRow.Cells[0].Attributes["data-class"] = "expand";
+            GridView1.HeaderRow.Cells[1].Attributes["data-class"] = "expand";
 
             //Attribute to hide column in Phone.
             GridView1.HeaderRow.Cells[3].Attributes["data-hide"] = "phone";

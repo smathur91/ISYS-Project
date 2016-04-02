@@ -2,11 +2,11 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <section id="main-section">
-           <div class="gridv" style="margin-top:100px;">
+           <div class="gridv" style="margin-top:100px; margin-left:5%; width:100%">
     <form id="form1" runat="server">
         
     <asp:GridView ID="GridView1" CssClass="footable" OnPageIndexChanging="GridView1_PageIndexChanging" runat="server" AutoGenerateColumns="false"
-        Style="max-width: 500px" AllowPaging="True" PagerSettings-Mode="NumericFirstLast">
+        Style="max-width: 1000px" AllowPaging="True" PagerSettings-Mode="NumericFirstLast">
         <Columns>
             <asp:BoundField DataField="appointment_id" HeaderText="Appointment ID" />
             <asp:BoundField DataField="patient_first_name" HeaderText="Patient First Name" />
