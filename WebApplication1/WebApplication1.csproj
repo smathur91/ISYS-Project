@@ -120,7 +120,9 @@
     <Content Include="js\owl.carousel.js" />
     <Content Include="logo_title.jpg" />
     <Content Include="packages.config" />
+    <Content Include="search.aspx" />
     <Content Include="Site1.Master" />
+    <Content Include="search.css" />
     <Content Include="WebForm3.aspx" />
     <Content Include="scss\style.scss" />
     <Content Include="engine1\ws-ctrl-material.eot" />
@@ -149,6 +151,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

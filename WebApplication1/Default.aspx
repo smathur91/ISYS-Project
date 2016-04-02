@@ -92,7 +92,7 @@
              <input type="date" />
              <label name="email">Message</label>
              <input type="text" />
-             <input type="submit" value="Login" />
+             <input type="submit" value="Book" />
  
            </fieldset>
         </div>
@@ -190,19 +190,19 @@
 				<!----start-img-cursual---->
 				<!-- start content_slider -->
 					       <div id="owl-demo" class="owl-carousel">
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s1.jpg" alt="Lazy Owl Image" />
+				                <div class="item"><img class="lazyOwl" src="images/s1.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Appz</span> Theme</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s2.jpg" alt="Lazy Owl Image" />
+				                <div class="item"><img class="lazyOwl" src="images/s2.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Easy To</span> Use</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s3.jpg" alt="Lazy Owl Image" />
+				                <div class="item"><img class="lazyOwl" src="images/s3.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Amazing</span> Design</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s4.jpg" alt="Lazy Owl Image" />
+				                <div class="item"><img class="lazyOwl" src="images/s4.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Dashboard</span> View</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
@@ -223,23 +223,23 @@
 				<!----start-img-cursual---->
 				<!-- start content_slider -->
 					       <div id="owl-demo1" class="owl-carousel">
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
+				                <div class="item"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Appz</span> Theme</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
+				                <div class="item" ><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Easy To</span> Use</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
+				                <div class="item" ><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Amazing</span> Design</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
+				                <div class="item" ><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Dashboard</span> View</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
+				                <div class="item" ><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Appz</span> Theme</a>
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
@@ -262,8 +262,8 @@
 			    navigationText : ["",""],
 			    rewindNav : false,
 			    scrollPerPage : false,
-			    pagination : false,
-    			paginationNumbers: false,
+			    pagination : true,
+    			paginationNumbers: true,
 		      });
 		
 		    });
@@ -280,8 +280,8 @@
 			    navigationText : ["",""],
 			    rewindNav : false,
 			    scrollPerPage : false,
-			    pagination : false,
-    			paginationNumbers: false,
+			    pagination : true,
+			    paginationNumbers: true,
 		      });
 		
 		    });

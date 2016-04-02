@@ -1025,6 +1025,16 @@ Footer
     }
 }
 
+@media (max-width: 475px) {
+    #navthing h2 {
+        padding-left: 20%;
+    }
+
+    #navthing {
+        margin-left: 5%;
+    }
+}
+
 
 /******************************************
     Main Blocks
@@ -1057,8 +1067,7 @@ Footer
 		-webkit-transition: all 300ms ease-out;
 		-moz-transition: all 300ms ease-out;
 		-o-transition: all 300ms ease-out;
-		-ms-transition: all 300ms ease-out;	
-	transition: all 300ms ease-out;
+		transition: all 300ms ease-out;
 }
 
 /* Caption Common Style */
@@ -1094,4 +1103,31 @@ Footer
 .main-blocks{
     display:none;
 }
+}
+
+
+/********************************************************************
+    *****************************************************************
+    Receptionist Gridview
+*********************************************************************
+    *****************************************************************/
+
+#search-fields-div form input,
+#search-fields-div form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  white;
+	box-shadow: 1px 1px 1px 1px gray;
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 98%;
+	padding: 18px;
+    float:none;
 }
