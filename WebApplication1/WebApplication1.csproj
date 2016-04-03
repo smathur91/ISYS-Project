@@ -102,6 +102,8 @@
     <Content Include="images\5.jpg" />
     <Content Include="images\c-arrows.png" />
     <Content Include="images\header.png" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\patient_records.jpg" />
     <Content Include="images\s1.jpg" />
     <Content Include="images\s2.jpg" />
     <Content Include="images\s3.jpg" />

@@ -71,6 +71,31 @@ header {
 		height: 30em;
 	  padding-top: 2.5em;
 }
+
+.main-background-login{
+		float: left;
+		width: 100%;
+		background-image: url("images/overlay.png"), url("images/login.jpg");
+		background-size: auto, cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		text-align: center;
+		height: 30em;
+	  padding-top: 2.5em;
+}
+
+.main-background-patient-records{
+		float: left;
+		width: 100%;
+		background-image: url("images/overlay.png"), url("images/patient_records.jpg");
+		background-size: auto, cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		text-align: center;
+		height: 30em;
+	  padding-top: 2.5em;
+}
+
 .doctor-image{
     width: 40%;
     float: left;

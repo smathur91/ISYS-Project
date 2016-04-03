@@ -28,6 +28,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="banner" runat="server">
     <div class="main-background-home">
+        <h1>
+            Login
+        </h1>
 		</div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

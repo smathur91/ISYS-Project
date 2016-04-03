@@ -79,9 +79,9 @@ namespace WebApplication1
                         user_type = (myReader["user_type"].ToString());
                     }
                     myConnection.Close();
-                    if(user_type=="D")
+                    if(user_type=="r")
                     {
-                        Response.Redirect("default.aspx");
+                        Response.Redirect("WebForm5.aspx");
                     }
                     else
                     {
