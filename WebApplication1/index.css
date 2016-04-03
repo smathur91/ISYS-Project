@@ -211,7 +211,7 @@ nav > ul li ul li > a {
 
 
 /*Making Navigation bar responsive*/
-@media screen and (max-width: 1087px) {
+@media screen and (max-width: 1113px) {
 	nav ul {
 		  display: none;
 	       
@@ -1132,4 +1132,63 @@ Footer
 }
 }
 
+
+
+/************************************************
+    ********************************************
+    GRIDVIEW
+**************************************************
+    *********************************************/
+
+.doctor-image-gridview{
+    width: 19%;
+    float: left;
+    margin-top:13%;
+}
+
+    .doctor-image-gridview img {
+        width: 60%;
+    }
+
+.gridv {
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 70%;
+    float: left;
+}
+
+
+.GridPager a, .GridPager span
+        {
+            display: block;
+            height: 15px;
+            width: 15px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+        }
+        .GridPager a
+        {
+            background-color: #f5f5f5;
+            color: #969696;
+            border: 1px solid #969696;
+        }
+        .GridPager span
+        {
+            background-color: #A1DCF2;
+            color: #000;
+            border: 1px solid #3AC0F2;
+        }
+
+
+@media (max-width: 1113px){
+
+        .doctor-image-gridview{
+            display:none;
+        }
+
+        .gridv{
+            width:100%;
+        }
+    }
 
