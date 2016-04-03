@@ -33,10 +33,6 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="banner" runat="server">
 
-               <div id="dentalTipDiv">
-<asp:Label runat="server" ID="dentalTipLabel"></asp:Label>
-        </div>
-
 
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
@@ -138,7 +134,14 @@
 
          <div class="main-blocks">
         <div class="box">
-		<img src="images/t1.jpg" width="100%"/>
+		<img src="images/t1.png" width="100%"/>
+		<span class="caption fade-caption">
+			<h3>Fade Caption</h3>
+			<p><asp:Label runat="server" ID="dentalTipLabel"></asp:Label></p>
+		</span>
+		</div>
+        <div class="box">
+		<img src="images/t2.png" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -146,7 +149,7 @@
 		</span>
 		</div>
         <div class="box">
-		<img src="images/t2.jpg" width="100%"/>
+		<img src="images/t3.png" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -154,15 +157,7 @@
 		</span>
 		</div>
         <div class="box">
-		<img src="images/t3.jpg" width="100%"/>
-		<span class="caption fade-caption">
-			<h3>Fade Caption</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-		</span>
-		</div>
-        <div class="box">
-		<img  src="images/t4.jpg" width="100%"/>
+		<img  src="images/t4.png" width="100%"/>
 		<span class="caption fade-caption">
 			<h3>Fade Caption</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
@@ -184,7 +179,7 @@
 	
 
 
-                	<!--start-content--->
+               	<%--<!--start-content--->
 
 				<div class="wrap-services">
 				<!----start-img-cursual---->
@@ -207,10 +202,13 @@
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
 				              
-			              </div>
+			              </div>--%>
+
 				<!----//End-img-cursual---->
+
+
 	
-				</div>
+<%--				</div>
 
 
 <div style="padding:6px;">
@@ -244,8 +242,67 @@
 				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
 				                </div>
 			              </div>
+				<!----//End-img-cursual---->--%>
+	
+                <!--start-content--->
+				<div class="wrap-services">
+				<!----start-img-cursual---->
+				<!-- start content_slider -->
+					       <div id="owl-demo" class="owl-carousel">
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s1.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dental Implants</span> </a>
+				                	<p>Guaranteed to make you fall in love again with your smile, we introduce our low price dental implants. </p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s2.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Teeth Cleaning</span> </a>
+				                	<p>Lets prevent teeth from getting infected from various diseases and restore perfect smile</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s3.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dental Examination</span> </a>
+				                	<p>Free Dental Examination for the first time visitor</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s4.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Fillings and Bridges</a>
+				                	<p>Don't be embarrassed by damaged tooth visit us for affordable dental bridges similar to natural teeth </p>
+				                </div>
+				              
+			              </div>
 				<!----//End-img-cursual---->
 	
+				</div>
+<div style="padding:6px;">
+  
+  <h5>Our Doctors </h5>
+<hr />
+</div>
+                <div class="wrap-doctors">
+				<!----start-img-cursual---->
+				<!-- start content_slider -->
+					       <div id="owl-demo1" class="owl-carousel">
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Experienced Doctors</span> </a>
+				                	<p>With average experience of 25 Year, we have best dentist in town</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>State of the art Instruments</a>
+				                	<p>Technologically advanced Instruments</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Nursing Staff</span> </a>
+				                	<p>Caring, helping, loving nursing staff. Our nursing staff won the best nursing staff competition for last three years.</p>
+				                </div>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Team</a>
+				                	<p>The perfect blend of experience and youth along with amalgamation of modern technology with traditional methodology make our team unique </p>
+				                </div>
+                               <div class="item" ><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Appz</span> Theme</a>
+				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+				                </div>
+				                
+			              </div>
+
+
 				</div>
                 		<script src="js/jquery-1.9.1.min.js"></script> 
 		     <!-- Owl Carousel Assets -->
@@ -258,12 +315,12 @@
 		        items : 3,
 		        lazyLoad : true,
 		        autoPlay : false,
-		        navigation : true,
+		        navigation : false,
 			    navigationText : ["",""],
 			    rewindNav : false,
 			    scrollPerPage : false,
 			    pagination : true,
-    			paginationNumbers: true,
+    			paginationNumbers: false,
 		      });
 		
 		    });
@@ -276,12 +333,12 @@
 		        items : 3,
 		        lazyLoad : true,
 		        autoPlay : false,
-		        navigation : true,
+		        navigation : false,
 			    navigationText : ["",""],
 			    rewindNav : false,
 			    scrollPerPage : false,
 			    pagination : true,
-			    paginationNumbers: true,
+			    paginationNumbers: false,
 		      });
 		
 		    });
