@@ -19,13 +19,13 @@ namespace WebApplication1
             try
             {
                 SqlDataReader myReader = null;
-                SqlCommand myCommand = new SqlCommand("select * from dentalTip where day="+ dayOfYear,
+                SqlCommand myCommand = new SqlCommand("select * from dentalTip where day=" + dayOfYear,
                                                          myConnection);
                 myConnection.Open();
                 myReader = myCommand.ExecuteReader();
                 while (myReader.Read())
                 {
-                    tip=(myReader["tip"].ToString());
+                    tip = (myReader["tip"].ToString());
                 }
                 myConnection.Close();
                 dentalTipLabel.Text = tip;
