@@ -27,7 +27,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="banner" runat="server">
-    <div class="main-background-home">
+    <div class="main-background-login">
         <h1>
             Login
         </h1>

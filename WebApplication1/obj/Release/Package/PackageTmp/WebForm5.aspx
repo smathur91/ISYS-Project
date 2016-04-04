@@ -8,9 +8,9 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="banner" runat="server">
-    <div class="main-background-home">
+    <div class="main-background-appointments">
         <h1>
-        Patient Records
+        Appointments
 </h1>
 		</div>
 </asp:Content>
@@ -25,7 +25,7 @@
 
 
 
-           <div class="gridv" style="margin-top:100px; margin-left:5%; width:100%">
+           <div class="gridv">
 
     <form id="form1" runat="server">
     <asp:GridView ID="GridView1" CssClass="footable" OnPageIndexChanging="GridView1_PageIndexChanging" runat="server" AutoGenerateColumns="false"
@@ -39,6 +39,8 @@
             <asp:BoundField DataField="appointment_date" HeaderText="Appointment Date" />
             <asp:BoundField DataField="appointment_time" HeaderText="Appointment Time" />
         </Columns>
+
+        <PagerStyle HorizontalAlign="Right" CssClass="GridPager" />
     </asp:GridView>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/0.1.0/css/footable.min.css"
         rel="stylesheet" type="text/css" />
@@ -53,7 +55,9 @@
     </form>
            </div>
 
-
+                   <div class="doctor-image-gridview">
+            <img src="doctor.jpg" alt="DOCTOR" />
+        </div>
 
 
 

@@ -74,7 +74,9 @@
 
 								<p class="footer-company-about">
 					<span>About the company</span>
-					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+					The leading dental clinic in Denver, Colorado in United States which has 
+                    been assisting patients in relieving them from dental problems since 2001.
+                    Provides world class premium services at affordable prices. 
 				</p>
 
 				<div class="footer-icons">
@@ -90,10 +92,10 @@
 			</div>
 
 			<div class="footer-center">
-
+               
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>21 Revolution Street</span> Paris, France</p>
+					<p><span>4451 E Virginia Ave</span> Denver, CO</p>
 				</div>
 
 				<div>
@@ -103,7 +105,7 @@
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@company.com">support@company.com</a></p>
+					<p><a href="mailto:support@company.com">support@JD.com</a></p>
 				</div>
 
 			</div>
