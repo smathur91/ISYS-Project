@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="UnderConstr.aspx.cs" Inherits="WebApplication1.UnderConstr" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Under COnstruction</title>
     <link href="css/style1.css" rel="stylesheet" type="text/css"  media="all" />
 		<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 

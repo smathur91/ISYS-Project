@@ -2,6 +2,7 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Appointments</title>
         	<link rel="stylesheet" href="index.css" />
     </asp:Content>
 
