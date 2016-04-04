@@ -38,14 +38,14 @@
 <div class="ws_images"><ul>
 		<li><img src="data1/images/3.jpg" alt="Image 1" title="Joaqina Dental" id="wows1_0"/>Your smile. Our passion. Your life.</li>
 		<li><img src="data1/images/10.jpg" alt="Image 2" title="Smile Rewards" id="wows1_1"/>Most exclusive smile program for the most loyal customers.</li>
-		<li><a href="#"><img src="data1/images/11.jpg" alt="jquery carousel" title="World Class Doctors" id="wows1_2"/></a>2 Doctors are Recipient of Golden Apple Awards</li>
+		<li><a href="UnderConstr.aspx"><img src="data1/images/11.jpg" alt="jquery carousel" title="World Class Doctors" id="wows1_2"/></a>2 Doctors are Recipient of Golden Apple Awards</li>
 		<li><img src="data1/images/9.jpg" alt="Image 4" title="Multispeciality Dental Services" id="wows1_3"/>Catering to all of your dental needs and desires.</li>
 	</ul></div>
 	<div class="ws_bullets"><div>
-		<a href="#" title="Image 1"><span><img src="data1/tooltips/3.jpg" alt="Image 1"/>1</span></a>
-		<a href="#" title="Image 2"><span><img src="data1/tooltips/10.jpg" alt="Image 2"/>2</span></a>
-		<a href="#" title="Image 3"><span><img src="data1/tooltips/11.jpg" alt="Image 3"/>3</span></a>
-		<a href="#" title="Image 4"><span><img src="data1/tooltips/9.jpg" alt="Image 4"/>4</span></a>
+		<a href="UnderConstr.aspx" title="Image 1"><span><img src="data1/tooltips/3.jpg" alt="Image 1"/>1</span></a>
+		<a href="UnderConstr.aspx" title="Image 2"><span><img src="data1/tooltips/10.jpg" alt="Image 2"/>2</span></a>
+		<a href="UnderConstr.aspx" title="Image 3"><span><img src="data1/tooltips/11.jpg" alt="Image 3"/>3</span></a>
+		<a href="UnderConstr.aspx" title="Image 4"><span><img src="data1/tooltips/9.jpg" alt="Image 4"/>4</span></a>
 	</div></div>
 <div class="ws_shadow"></div>
 </div>	
@@ -72,7 +72,7 @@
         <div id="wrap">
   <div id="regbar">
     <div id="navthing">
-      <h2><a href="#" id="loginform">Book Appointment</a></h2>
+      <h2><a href="UnderConstr.aspx" id="loginform">Book Appointment</a></h2>
     <div class="login">
       <div class="arrow-up"></div>
       <div class="formholder">
@@ -249,19 +249,19 @@ Sealants</p>
 				<!-- start content_slider -->
 					       <div id="owl-demo" class="owl-carousel">
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s1.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dental Implants</span> </a>
+				                	<a href="UnderConstr.aspx"><span>Dental Implants</span> </a>
 				                	<p>Guaranteed to make you fall in love again with your smile, we introduce our low price dental implants. </p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s2.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Teeth Cleaning</span> </a>
+				                	<a href="UnderConstr.aspx"><span>Teeth Cleaning</span> </a>
 				                	<p>Lets prevent teeth from getting infected from various diseases and restore perfect smile</p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s3.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dental Examination</span> </a>
+				                	<a href="UnderConstr.aspx"><span>Dental Examination</span> </a>
 				                	<p>Take the first step to a healthy, bright smile by scheduling a smile consultation</p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s4.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Fillings and Bridges</a>
+				                	<a href="UnderConstr.aspx"><span>Fillings and Bridges</a>
 				                	<p>Don't be embarrassed by damaged tooth visit us for affordable dental bridges similar to natural teeth </p>
 				                </div>
 				              
@@ -279,30 +279,30 @@ Sealants</p>
 				<!-- start content_slider -->
 					       <div id="owl-demo1" class="owl-carousel">
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d1.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dr. Kevin O Nixon</span>, Head Dentist </a>
+				                	<a href="UnderConstr.aspx"><span>Dr. Kevin O Nixon</span>, Head Dentist </a>
 				                	<p>Dr. Kevin Nixon received his D.D.S. degree from Texas A&M University in 1989. 
                                         He was awarded "The Best Dentist" award in 2015 in the Denver.</p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d2.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dr. Angela</span>, Orthodontist- DDS</a>
+				                	<a href="UnderConstr.aspx"><span>Dr. Angela</span>, Orthodontist- DDS</a>
 				                	<p>Dr. Angela is an accomplished orthodontist. 
                                         Prior to moving to the city in 2015, Dr. Angela relocated to Chicago where she was an 
                                         associate in two orthodontic practices.</p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d3.png" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dr. Megan Smith</span>, Root Canal Specialist</a>
+				                	<a href="UnderConstr.aspx"><span>Dr. Megan Smith</span>, Root Canal Specialist</a>
 				                	<p>Dr. Megan Smith is the third generation in a family of healthcare providers. 
                                         She attributes her  ethics to her late grandfather. 
                                         </p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d4.png" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dr. Elvis Copperfield</span>, General & Cosmetic Dentist</a>
+				                	<a href="UnderConstr.aspx"><span>Dr. Elvis Copperfield</span>, General & Cosmetic Dentist</a>
 				                	<p>Dr. Elvis is a general and cosmetic dentist at The Center for Special Dentistry. After graduating with 
                                         honors , Dr. Elvis has continued to excel in private practice. 
                                         </p>
 				                </div>
                                <div class="item" ><img class="lazyOwl" src="images/d35.png" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Dr. Kyle Simmons</span>, Oral Cancer Specialist</a>
+				                	<a href="UnderConstr.aspx"><span>Dr. Kyle Simmons</span>, Oral Cancer Specialist</a>
 				                	<p>Dr. Kyle is a dental oncologist and dental sleep medicine provider. His 
                                         expertise is the dental management of patients before, during, and after cancer experience. 
                                         

@@ -1,13 +1,14 @@
-
 #cons-section{
-	background: url(../images/bg.jpg) no-repeat #E7E7E7;
+        	background: url(../images/bg.jpg) no-repeat #E7E7E7;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-    margin-bottom:-4.5%;
+    margin-top:-50px;
+    margin-bottom:-70px;
 }
 .content {
+
 	width: 57%;
 	margin: 0 auto;
 	border-top: 1px solid rgba(226, 226, 226, 0.69);
@@ -124,4 +125,8 @@
 }
 .copy-right p a:hover{
 	color:#000;
+}
+
+.footer-distributed{
+    margin-top:0px;
 }

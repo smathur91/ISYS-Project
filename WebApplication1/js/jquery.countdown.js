@@ -7,11 +7,11 @@
  */
 
 (function($){
-	 
+	
 	// Number of seconds in every time division
-    var days = 24 * 60 * 60 * 1000,
-		hours =  60 * 60;
-		//minutes	= 20*60;
+	var days	= 24*60*60,
+		hours	= 60*60,
+		minutes	= 60;
 	
 	// Creating the plugin
 	$.fn.countdown = function(prop){

@@ -19,6 +19,7 @@
     	<link rel="stylesheet" href="search.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cookie" />
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+       
 	
 </head>
 
@@ -34,11 +35,11 @@
 					<input type="checkbox" id="nav" /><label for="nav"></label>
 					<ul>
 						<li><a id="links-header" href="Default.aspx" >Home</a></li>       
-						<li><a id="links-header" href="#" >About Us</a></li>
-                        <li><a id="links-header" href="#" >Services</a></li>
+						<li><a id="links-header" href="UnderConstr.aspx" >About Us</a></li>
+                        <li><a id="links-header" href="UnderConstr.aspx" >Services</a></li>
 						<li><a id="links-header" href="webform4.aspx" >Manage Appointment</a></li>
-						<li><a id="links-header" href="#" >Testimonials</a></li>
-						<li><a id="links-header" href="#" >Contact</a></li>
+						<li><a id="links-header" href="UnderConstr.aspx" >Testimonials</a></li>
+						<li><a id="links-header" href="UnderConstr.aspx" >Contact</a></li>
 					</ul>
 				</nav>
 				
@@ -81,10 +82,10 @@
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
+					<a href="UnderConstr.aspx"><i class="fa fa-facebook"></i></a>
+					<a href="UnderConstr.aspx"><i class="fa fa-twitter"></i></a>
+					<a href="UnderConstr.aspx"><i class="fa fa-linkedin"></i></a>
+					<a href="UnderConstr.aspx"><i class="fa fa-github"></i></a>
 
 				</div>
 
@@ -115,7 +116,7 @@
 
 				<p>Contact Us</p>
 
-				<form action="#" method="post">
+				<form action="UnderConstr.aspx" method="post">
 
 					<input type="text" name="email" placeholder="Email" />
 					<textarea name="message" placeholder="Message"></textarea>
