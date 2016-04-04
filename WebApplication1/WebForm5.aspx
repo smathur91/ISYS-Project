@@ -8,9 +8,9 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="banner" runat="server">
-    <div class="main-background-home">
+    <div class="main-background-appointments">
         <h1>
-        Patient Records
+        Appointments
 </h1>
 		</div>
 </asp:Content>

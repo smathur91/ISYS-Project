@@ -75,19 +75,20 @@ header {
 .main-background-login{
 		float: left;
 		width: 100%;
-		background-image: url("images/overlay.png"), url("images/login.jpg");
+		background-image: url("images/overlay.png"), url("images/header.png");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		text-align: center;
 		height: 30em;
+        /*box-shadow : 0px 0px 2px #888888;*/
 	  padding-top: 2.5em;
 }
 
-.main-background-patient-records{
+.main-background-appointments{
 		float: left;
 		width: 100%;
-		background-image: url("images/overlay.png"), url("images/patient_records.jpg");
+		background-image: url("images/overlay.png"), url("images/appointments.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -121,13 +122,14 @@ header {
 }
 
 
-h1 {
+.main-background-login h1, .main-background-appointments h1 {
 	  text-align: center;
-	  width: 100%;
-	  margin-top: 270px;
-	  color: orange;
-	  font-weight: 800;
-	  font-size: 2.5em;
+    width: 300px;
+    margin-top: 270px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5em;
+    background-color: orange;
 }
 
 
@@ -225,7 +227,7 @@ nav > ul li ul li > a {
   		cursor: pointer;
 		  position: absolute;
 		  right: 1.25em;
-  		top: 0px;
+  		top: 10px;
 	}
   
 .inner label:after{
@@ -244,6 +246,7 @@ nav > ul li ul li > a {
   		position: absolute;
 		  right: 1.25em;
 		  left: 1.25em;
+          top: 43px;
 	}
 
 	nav a {
@@ -280,6 +283,7 @@ nav > ul li ul li > a {
 	}
 .inner h1 {
 	  font-size: 1.625em;
+
 }
 
 }
@@ -326,7 +330,7 @@ background-color:#25c9da;
 h5
 {
     font-family: "Lucida Sans Unicode";
-    font-size: 16px; 
+    font-size: 20px; 
     color: #4F5255;
     margin: 0 auto;
 	padding: 10px;
@@ -1118,6 +1122,7 @@ Footer
 	height: 172px;
 	text-align: left;
 	padding: 1.647%;
+    font-size: 18px;
 }
 
 
@@ -1126,7 +1131,7 @@ Footer
 	opacity: 1;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 1023px) {
 .main-blocks{
     display:none;
 }
@@ -1141,17 +1146,17 @@ Footer
     *********************************************/
 
 .doctor-image-gridview{
-    width: 19%;
+    width: 25%;
     float: left;
-    margin-top:13%;
+    margin-top:9%;
 }
 
     .doctor-image-gridview img {
-        width: 60%;
+        width: 75%;
     }
 
 .gridv {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 1%;
     width: 70%;
     float: left;

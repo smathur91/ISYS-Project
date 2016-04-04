@@ -37,9 +37,9 @@
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
 		<li><img src="data1/images/3.jpg" alt="Image 1" title="Joaqina Dental" id="wows1_0"/>Your smile. Our passion. Your life.</li>
-		<li><img src="data1/images/10.jpg" alt="Image 2" title="Multispecialy Dental Services" id="wows1_1"/>Catering to all of your dental needs and desires.</li>
+		<li><img src="data1/images/10.jpg" alt="Image 2" title="Smile Rewards" id="wows1_1"/>Most exclusive smile program for the most loyal customers.</li>
 		<li><a href="#"><img src="data1/images/11.jpg" alt="jquery carousel" title="World Class Doctors" id="wows1_2"/></a>2 Doctors are Recipient of Golden Apple Awards</li>
-		<li><img src="data1/images/9.jpg" alt="Image 4" title="Smile Rewards" id="wows1_3"/>Most exclusive smile program for the most loyal customers.</li>
+		<li><img src="data1/images/9.jpg" alt="Image 4" title="Multispeciality Dental Services" id="wows1_3"/>Catering to all of your dental needs and desires.</li>
 	</ul></div>
 	<div class="ws_bullets"><div>
 		<a href="#" title="Image 1"><span><img src="data1/tooltips/3.jpg" alt="Image 1"/>1</span></a>
@@ -136,32 +136,31 @@
         <div class="box">
 		<img src="images/t1.png" width="100%"/>
 		<span class="caption fade-caption">
-			<h3>Fade Caption</h3>
+			<h3>TIP OF THE DAY</h3>
 			<p><asp:Label runat="server" ID="dentalTipLabel"></asp:Label></p>
 		</span>
 		</div>
         <div class="box">
 		<img src="images/t2.png" width="100%"/>
 		<span class="caption fade-caption">
-			<h3>Fade Caption</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			<h3>Your Smile. Our Passion. Your Life.</h3>
+			<p>Quality dental care starts with best dentists. JD bring best in 
+class dentist and dental services at a very affordable price.</p>
 		</span>
 		</div>
         <div class="box">
 		<img src="images/t3.png" width="100%"/>
 		<span class="caption fade-caption">
-			<h3>Fade Caption</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			<h3>Multispeciality Dental Services</h3>
+			<p>The best and the most affordable treatment in town.  We offer : * Oral examinations * X-rays * Extractions * Fillings * Cleanings * 
+Sealants</p>
 		</span>
 		</div>
         <div class="box">
 		<img  src="images/t4.png" width="100%"/>
 		<span class="caption fade-caption">
-			<h3>Fade Caption</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-			sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			<h3>We Are Always Ready For An Emergency</h3>
+			<p>We are only clinic in town to offer 24/7 Emergency Services.</p>
 		</span>
 		</div>
  </div>
@@ -259,7 +258,7 @@
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s3.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Dental Examination</span> </a>
-				                	<p>Free Dental Examination for the first time visitor</p>
+				                	<p>Take the first step to a healthy, bright smile by scheduling a smile consultation</p>
 				                </div>
 				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/s4.jpg" alt="Lazy Owl Image" />
 				                	<a href="#"><span>Fillings and Bridges</a>
@@ -279,25 +278,35 @@
 				<!----start-img-cursual---->
 				<!-- start content_slider -->
 					       <div id="owl-demo1" class="owl-carousel">
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/1.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Experienced Doctors</span> </a>
-				                	<p>With average experience of 25 Year, we have best dentist in town</p>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d1.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dr. Kevin O Nixon</span>, Head Dentist </a>
+				                	<p>Dr. Kevin Nixon received his D.D.S. degree from Texas A&M University in 1989. 
+                                        He was awarded "The Best Dentist" award in 2015 in the Denver.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/2.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>State of the art Instruments</a>
-				                	<p>Technologically advanced Instruments</p>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d2.jpg" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dr. Angela</span>, Orthodontist- DDS</a>
+				                	<p>Dr. Angela is an accomplished orthodontist. 
+                                        Prior to moving to the city in 2015, Dr. Angela relocated to Chicago where she was an 
+                                        associate in two orthodontic practices.</p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/3.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Nursing Staff</span> </a>
-				                	<p>Caring, helping, loving nursing staff. Our nursing staff won the best nursing staff competition for last three years.</p>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d3.png" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dr. Megan Smith</span>, Root Canal Specialist</a>
+				                	<p>Dr. Megan Smith is the third generation in a family of healthcare providers. 
+                                        She attributes her  ethics to her late grandfather. 
+                                        </p>
 				                </div>
-				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/4.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Team</a>
-				                	<p>The perfect blend of experience and youth along with amalgamation of modern technology with traditional methodology make our team unique </p>
+				                <div class="item" onclick="location.href='single-page.html';"><img class="lazyOwl" src="images/d4.png" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dr. Elvis Copperfield</span>, General & Cosmetic Dentist</a>
+				                	<p>Dr. Elvis is a general and cosmetic dentist at The Center for Special Dentistry. After graduating with 
+                                        honors , Dr. Elvis has continued to excel in private practice. 
+                                        </p>
 				                </div>
-                               <div class="item" ><img class="lazyOwl" src="images/5.jpg" alt="Lazy Owl Image" />
-				                	<a href="#"><span>Appz</span> Theme</a>
-				                	<p>Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</p>
+                               <div class="item" ><img class="lazyOwl" src="images/d35.png" alt="Lazy Owl Image" />
+				                	<a href="#"><span>Dr. Kyle Simmons</span>, Oral Cancer Specialist</a>
+				                	<p>Dr. Kyle is a dental oncologist and dental sleep medicine provider. His 
+                                        expertise is the dental management of patients before, during, and after cancer experience. 
+                                        
+                                       </p>
 				                </div>
 				                
 			              </div>
