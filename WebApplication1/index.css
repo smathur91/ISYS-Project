@@ -122,12 +122,14 @@ header {
 
 
 h1 {
-	  text-align: center;
-	  width: 100%;
-	  margin-top: 270px;
-	  color: orange;
-	  font-weight: 800;
-	  font-size: 2.5em;
+
+    text-align: center;
+    width: 300px;
+    margin-top: 270px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5em;
+    background-color: orange;
 }
 
 
@@ -196,7 +198,7 @@ nav > ul li ul li > a {
 	  transition:.2s ease-in-out .2s;
 	  }
 	  
-#links-header:hover {
+#links-header:hover, #links-header:active {
     transform: scale(1.1,1.1);
 	  color: #ff9900;
 	  	  display:block;

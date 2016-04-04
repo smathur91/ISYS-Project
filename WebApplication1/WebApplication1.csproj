@@ -66,9 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CS.aspx" />
+    <Content Include="css\jquery.countdown.css" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\style.css" />
+    <Content Include="css\style1.css" />
     <Content Include="data1\images\10.jpg" />
     <Content Include="data1\images\11.jpg" />
     <Content Include="data1\images\2.jpg" />
@@ -102,6 +103,7 @@
     <Content Include="images\3.jpg" />
     <Content Include="images\4.jpg" />
     <Content Include="images\5.jpg" />
+    <Content Include="images\bg.jpg" />
     <Content Include="images\bullet.png" />
     <Content Include="images\c-arrows.png" />
     <Content Include="images\header.png" />
@@ -119,14 +121,18 @@
     <Content Include="js\classie.js" />
     <Content Include="js\index.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.countdown.js" />
     <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="js\modernizr.custom.js" />
     <Content Include="js\owl.carousel.js" />
+    <Content Include="js\script.js" />
     <Content Include="logo_title.jpg" />
     <Content Include="packages.config" />
     <Content Include="search.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="search.css" />
+    <Content Include="UnderConstr.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="scss\style.scss" />
     <Content Include="engine1\ws-ctrl-material.eot" />
@@ -154,10 +160,6 @@
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CS.aspx.cs">
-      <DependentUpon>CS.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="search.aspx.cs">
       <DependentUpon>search.aspx</DependentUpon>
@@ -179,6 +181,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderConstr.aspx.cs">
+      <DependentUpon>UnderConstr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderConstr.aspx.designer.cs">
+      <DependentUpon>UnderConstr.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm3.aspx.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>

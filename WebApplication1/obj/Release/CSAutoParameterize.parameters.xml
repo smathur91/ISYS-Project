@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="isys 631ConnectionString-Web.config Connection String" description="isys 631ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=isys631.database.windows.net;Initial Catalog=&quot;isys 631&quot;;User ID=isys631;Password=CollegeMain-345" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\kashish\\Documents\\GitHub\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='isys 631ConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\shashaank\\Source\\Repos\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='isys 631ConnectionString']/@connectionString" />
   </parameter>
 </parameters>

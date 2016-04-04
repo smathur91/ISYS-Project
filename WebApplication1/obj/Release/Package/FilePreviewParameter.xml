@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="ISYSV1" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kashish\\Documents\\GitHub\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kashish\\Documents\\GitHub\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\shashaank\\Source\\Repos\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\shashaank\\Source\\Repos\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
   <parameter name="isys 631ConnectionString-Web.config Connection String" description="" value="Data Source=isys631.database.windows.net;Initial Catalog=&quot;isys 631&quot;;User ID=isys631;Password=CollegeMain-345" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\kashish\\Documents\\GitHub\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='isys 631ConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\shashaank\\Source\\Repos\\ISYS-Project\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='isys 631ConnectionString']/@connectionString" />
   </parameter>
 </parameters>
