@@ -106,7 +106,7 @@
             <input type="password" required="required" autocomplete="off" id="psswrd_login" runat="server" />
           </div>
           
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          <p class="forgot"><a href="UnderConstr.aspx">Forgot Password?</a></p>
           
           <button type="submit" class="button button-block" runat="server" id="button2" onserverclick="ButtonRegister_Click_login">Log In</button>
           

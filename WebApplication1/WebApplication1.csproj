@@ -66,10 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\jquery.countdown.css" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
+<<<<<<< HEAD
     <Content Include="css\testimonialstyle.css" />
+=======
+    <Content Include="css\style1.css" />
+>>>>>>> origin/master
     <Content Include="data1\images\10.jpg" />
     <Content Include="data1\images\11.jpg" />
     <Content Include="data1\images\2.jpg" />
@@ -104,12 +109,16 @@
     <Content Include="images\4.jpg" />
     <Content Include="images\5.jpg" />
     <Content Include="images\appointments.jpg" />
+<<<<<<< HEAD
     <Content Include="images\avatar-1.jpg" />
     <Content Include="images\avatar-2.jpg" />
     <Content Include="images\avatar-3.jpg" />
     <Content Include="images\avatar-4.jpg" />
     <Content Include="images\avatar-5.jpg" />
     <Content Include="images\avatar-6.jpg" />
+=======
+    <Content Include="images\bg.jpg" />
+>>>>>>> origin/master
     <Content Include="images\bullet.png" />
     <Content Include="images\c-arrows.png" />
     <Content Include="images\d1.jpg" />
@@ -132,20 +141,32 @@
     <Content Include="js\classie.js" />
     <Content Include="js\index.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
+<<<<<<< HEAD
     <Content Include="js\jquery-2.1.1.js" />
     <Content Include="js\jquery.flexslider-min.js" />
     <Content Include="js\jquery.magnific-popup.js" />
     <Content Include="js\main.js" />
     <Content Include="js\masonry.pkgd.min.js" />
+=======
+    <Content Include="js\jquery.countdown.js" />
+    <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\jquery.min.js" />
+>>>>>>> origin/master
     <Content Include="js\modernizr.custom.js" />
     <Content Include="js\modernizr.js" />
     <Content Include="js\owl.carousel.js" />
+    <Content Include="js\script.js" />
     <Content Include="logo_title.jpg" />
     <Content Include="packages.config" />
     <Content Include="search.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="search.css" />
+<<<<<<< HEAD
     <Content Include="testimonial.aspx" />
+=======
+    <Content Include="UnderConstr.aspx" />
+    <Content Include="WebForm2.aspx" />
+>>>>>>> origin/master
     <Content Include="WebForm3.aspx" />
     <Content Include="scss\style.scss" />
     <Content Include="engine1\ws-ctrl-material.eot" />
@@ -195,12 +216,28 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="testimonial.aspx.cs">
       <DependentUpon>testimonial.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="testimonial.aspx.designer.cs">
       <DependentUpon>testimonial.aspx</DependentUpon>
+=======
+    <Compile Include="UnderConstr.aspx.cs">
+      <DependentUpon>UnderConstr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderConstr.aspx.designer.cs">
+      <DependentUpon>UnderConstr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+>>>>>>> origin/master
     </Compile>
     <Compile Include="WebForm3.aspx.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
