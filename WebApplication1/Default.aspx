@@ -72,7 +72,7 @@
         <div id="wrap">
   <div id="regbar">
     <div id="navthing">
-      <h2><a href="#" id="loginform">Book Appointment</a></h2>
+      <h2><a href="UnderConstr.aspx" id="loginform">Book Appointment</a></h2>
     <div class="login">
       <div class="arrow-up"></div>
       <div class="formholder">
